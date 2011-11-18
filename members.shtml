@@ -1,4 +1,4 @@
-<!--#include virtual="/~scott/pll/header.html" -->
+<!--#include virtual="/lab/header.html" -->
 
 
 <h2>Group Members</h2>
@@ -24,4 +24,4 @@ Jonathan Eifrig<br/>
 <p>
 &nbsp;<p>
 
-<!--#include virtual="/~scott/pll/footer.html" -->
+<!--#include virtual="/lab/footer.html" -->

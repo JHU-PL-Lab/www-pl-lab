@@ -1,4 +1,4 @@
-<!--#include virtual="/~scott/pll/header.html" -->
+<!--#include virtual="/lab/header.html" -->
 
 <h2>NesT: Staged Programming For Sensor Networks</h2>
 
@@ -42,4 +42,4 @@ href="papers/WGP09.pdf">Type-Specialized Staged Programming with
 
 </ul>
 
- <!--#include virtual="/~scott/pll/footer.html" -->
+ <!--#include virtual="/lab/footer.html" -->

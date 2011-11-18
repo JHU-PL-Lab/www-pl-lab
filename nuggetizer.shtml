@@ -1,4 +1,4 @@
-<!--#include virtual="/~scott/pll/header.html" -->
+<!--#include virtual="/lab/header.html" -->
 
 
 <h2>The Nuggetizer</h2>
@@ -52,4 +52,4 @@ program verification
 </font></blockquote>
 
 
-<!--#include virtual="/~scott/pll/footer.html" -->
+<!--#include virtual="/lab/footer.html" -->

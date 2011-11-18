@@ -1,4 +1,4 @@
-<!--#include virtual="/~scott/pll/header.html" -->
+<!--#include virtual="/lab/header.html" -->
 
 <h2>Rethinking Language Architectures in the New Century</h2>
              
@@ -46,7 +46,7 @@ href="http://www.cs.jhu.edu/~yliu/Classages">here</a>.  This project
 <h3>Publications</h3>
 
 <ul><li> Yu David Liu, Scott Smith. <b><a
-  href="http://www.cs.jhu.edu/~scott/pll/papers/pedigree-types.pdf">Pedigree
+  href="http://www.cs.jhu.edu/lab/papers/pedigree-types.pdf">Pedigree
   Types</a></b>. International Workshop on Aliasing, Confinement and Ownership in Object-Oriented Programming (IWACO).
    </i> Paphos, Cyprus. July 2008.  <a href="papers/iwaco.ppt">slides</a></li>
 
@@ -83,11 +83,11 @@ equations in type constraints to enforce the hierarchy.
 
 
   <li> Yu David Liu and Scott Smith. <b><a
-  href="http://www.cs.jhu.edu/~scott/pll/papers/OOPSLA06.pdf">A Formal
+  href="http://www.cs.jhu.edu/lab/papers/OOPSLA06.pdf">A Formal
   Framework for Component 
   Deployment</a></b>.  In Proceedings of the 21st
   Conference on Object-Oriented Programming, Systems, Languages and
-  Applications (OOPSLA'06). Portland, Oregon, USA, October 2006. (<a href="http://www.cs.jhu.edu/~scott/pll/papers/OOPSLA06slides.pdf">slides</a>)</li>
+  Applications (OOPSLA'06). Portland, Oregon, USA, October 2006. (<a href="http://www.cs.jhu.edu/lab/papers/OOPSLA06slides.pdf">slides</a>)</li>
 
 <p>
 
@@ -324,4 +324,4 @@ cells are fully integrated.
 
 </ul>
 
-<!--#include virtual="/~scott/pll/footer.html" -->
+<!--#include virtual="/lab/footer.html" -->
