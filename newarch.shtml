@@ -1,0 +1,327 @@
+<!--#include virtual="/~scott/pll/header.html" -->
+
+<h2>Rethinking Language Architectures in the New Century</h2>
+             
+This ongoing project aims to combine several dimensions of programming
+language technology into an infrastructure to better support the
+recent trends in software development:
+
+<ul>
+
+<li> Interactions between different parts of one application are
+increasingly complex, which poses challenges on the design of
+encapsulated entities, such as modules, components and objects, to
+model these interactions. </li>
+
+<li> Software is increasingly developed collaboratively, and runs
+distributedly. </li>
+
+<li> Software project management has become increasingly complex, with
+intertwined goals and stages spanning from separate compilation,
+static linking, version control and dynamic updating. </li>
+
+<li> Security is a crucial concern in an environment lacking of
+universal trust. </li>
+
+<li> New application domains, such as sensor networks, are not
+particularly well-supported by traditional language models. </li>
+
+</ul>
+
+<p>A general thread of the <i>Ab Initio</i> project is to design
+well-encapuslated programming entities to best facilate their ability
+to interact in diversified fashions, such as static linking, dynamic
+linking and cross-computation communications. We have designed
+<i>Cells</i> for component programming, <i>Assemblages</i> for module
+systems, and <i>Classages</i> for object-oriented programming.              
+
+<p>Please read the following papers for details. The <i>Classages</i>
+language has a separate homepage <a
+href="http://www.cs.jhu.edu/~yliu/Classages">here</a>.  This project
+  is now a collaboration between JHU and SUNY Binghamton.
+             
+
+<p>
+
+<h3>Publications</h3>
+
+<ul><li> Yu David Liu, Scott Smith. <b><a
+  href="http://www.cs.jhu.edu/~scott/pll/papers/pedigree-types.pdf">Pedigree
+  Types</a></b>. International Workshop on Aliasing, Confinement and Ownership in Object-Oriented Programming (IWACO).
+   </i> Paphos, Cyprus. July 2008.  <a href="papers/iwaco.ppt">slides</a></li>
+
+<p>
+
+
+
+<blockquote><font size=-1> 
+<em>Pedigree Types</em> are an intuitive ownership type system requiring
+minimal programmer annotations.  Reusing the vocabulary of human
+genealogy, Pedigree Types programmers can qualify any
+object reference with a pedigree -- a <strong>child</strong>, <strong>sibling</strong>, <strong>parent</strong>, <strong>grandparent</strong>, <em>etc</em> -- to indicate what
+relationship the object being referred to has with the referant on the
+standard ownership tree, following the owners-as-dominators convention.
+Such a qualifier serves as a heap shape 
+constraint that must hold at run time and is enforced statically.
+Pedigree <strong>child</strong> captures the intention of encapsulation,
+<em>i.e.</em> ownership: the modified object reference is ensured not to
+escape the boundary of its parent.  Among existing ownership type
+systems, Pedigree Types are closest to <em>Universe Types</em>. The former can be viewed as extending the latter with
+a more general form of pedigree modifiers, so that the relationship
+between any pair of objects on the aforementioned ownership tree can be named and --
+more importantly -- inferred.  We use a constraint-based type system
+which is proved sound via subject reduction. Other technical
+originalities include a polymorphic treatment of pedigrees not
+explicitly specified by programmers, and use of linear diophantine
+equations in type constraints to enforce the hierarchy.
+
+
+</font>
+</blockquote>
+
+<p>
+
+
+  <li> Yu David Liu and Scott Smith. <b><a
+  href="http://www.cs.jhu.edu/~scott/pll/papers/OOPSLA06.pdf">A Formal
+  Framework for Component 
+  Deployment</a></b>.  In Proceedings of the 21st
+  Conference on Object-Oriented Programming, Systems, Languages and
+  Applications (OOPSLA'06). Portland, Oregon, USA, October 2006. (<a href="http://www.cs.jhu.edu/~scott/pll/papers/OOPSLA06slides.pdf">slides</a>)</li>
+
+<p>
+
+<blockquote><font size=-1>
+
+Software deployment is a complex process, and industrial-strength
+frameworks such as .NET, Java, and CORBA all provide explicit support
+for component deployment.  However, these frameworks are not built
+around fundamental principles as much as they are engineering efforts
+closely tied to particulars of the respective systems. Here we aim to
+elucidate the fundamental principles of software deployment, in a
+platform-independent manner.  Issues that need to be addressed include
+deployment unit design, <i>when</i>, <i>where</i> and <i>how</i> to wire
+components together, versioning, version dependencies, and 
+hot-deployment of components.   We define the
+<i>application buildbox</i> as the place where software is developed
+and deployed, and define a formal Labelled Transition System (LTS) on
+the buildbox with transitions for deployment operations that include
+build, install, ship, and update. We establish formal properties of the LTS,
+including the fact that if a component is shipped with a certain
+version dependency, then at run time that dependency must be satisfied
+with a compatible version. Our treatment of
+deployment is both platform- and vendor-independent, and we show how
+it models the core mechanisms of the industrial-strength deployment
+frameworks.
+</font>
+</blockquote>
+
+
+<p>
+
+  <li>Xiaoqi Lu and Scott Smith. <b><a href="http://www.cs.jhu.edu/~xiaoqilu/paper/p47-lu.pdf">A Microkernel 
+Virtual Machine: Building Security with Clear Interfaces</a></b>. In 
+PLAS 2006, Ottawa, Ontario, Canada.
+(<a href="paper/microkernelvm.ppt">slides</a>)
+
+<p>
+<blockquote><font size=-1>
+In this paper we propose a novel microkernel-based virtual machine
+(&micro;KVM), a new code-based security framework with a simple and
+declarative security architecture. The main design goals of the &micro;KVM are to put a clear, inviolable programming interface between
+different codebases or security components, and to limit the size of
+the trusted codebase in the spirit of a microkernel. Security policies
+are enforced solely on the interface because all data must explicitly
+pass through the inviolable interface. The architecture of the
+&micro;KVM effectively removes the need for expensive runtime stack
+inspection, and applies the principle of least privilege to both
+library and application code elegantly and efficiently. We have
+implemented a prototype of the proposed &micro;KVM. A series of
+benchmarks show that the prototype preserves the original
+functionality of Java and compares favorably with the J2SDK
+performance-wise.
+</font></blockquote>
+
+<p>
+<li> Yu David Liu and Scott Smith. <a href="http://www.cs.jhu.edu/~yliu/Classages/OOPSLA05.pdf">Interaction-Based Programming with
+Classages.</a> In Proceedings of the 20th Conference on Object-Oriented
+Programming, Systems, Languages and Applications (OOPSLA'05), San
+Diego, California, USA, October 2005. (<a href="http://www.cs.jhu.edu/~yliu/Classages/OOPSLA05_slides.pdf">slides</a>)</li> 
+
+<p>
+
+<blockquote><font size=-1>
+This paper presents <i>Classages</i>, a novel
+interaction-centric object-oriented language. Classes and objects in
+<i>Classages</i> are fully encapsulated, with explicit interfaces for all
+interactions they might be involved in. The design of <i>Classages</i>
+touches upon a wide range of language design topics, including
+encapsulation, object relationship representation, and object
+confinement. An encoding of Java's OO model in <i>Classages</i> is provided,
+showing how standard paradigms are supported. A
+prototype <i>Classages</i> compiler is described.
+</font></blockquote>
+
+<p>
+<li> Yu David Liu and Scott Smith. <a href = "papers/ecoop04.pdf">Modules
+with Interfaces for Dynamic Linking and Communication</a>. In
+Proceedings of the 18th European Conference on Object-Oriented
+Programming (ECOOP'04), Oslo, Norway, June 2004. (<a href="papers/ECOOPTalk.pdf">slides</a>)</li>
+
+<p>
+<blockquote><font size=-1>
+Module systems are well known
+as a means for giving clear interfaces for the static linking of code. This
+paper shows how adding explicit interfaces to modules for 1) dynamic linking
+and 2) cross-computation communication can increase the declarative nature
+of modules, and build a stronger foundation for language-based security and
+version control. We term these new modules <i>Assemblages</i>. We additionally
+develop a sound constraint-based type system particularly suited to a module
+system supporting bounded type parametricity, cross-module type recursion,
+and polymorphic type binding during dynamic linking and cross-computation
+communication.
+</font></blockquote>
+
+<p>
+<li> Ran Rinat and Scott Smith. <a href = "papers/ecoop02.pdf">Modular
+Internet Programming with Cells</a>. In
+Proceedings of the 16th European Conference on Object-Oriented
+Programming (ECOOP'02), MÃ¡laga, Spain, June 2002. (<a href =
+"ecoop02.ppt">slides</a>) </li>
+
+<p>
+<blockquote><font size=-1>
+The success of Java in recent years is largely due to its targeting as a
+language for the Internet.  Many of the network-related features of
+Java however are not part of the core language design.  In this
+paper we focus on the design of a more parsimonious Internet
+programming language, which supports network integration smoothly and
+coherently as part of its core specification. 
+ 
+The key idea is to center these extensions around the unified notion
+of a <i>cell</i>.  Cells are deployable containers of objects and
+code, which may import (<i>plugin</i>) and export (<i>plugout</i>)
+classes and operations.  They may be dynamically linked and unlinked,
+locally or across the network.  Cells may be dynamically loaded,
+unloaded, copied, and moved, and serve as units of security.  At first
+approximation, cells can be thought of as a hybrid between modules and
+components.  Here we concentrate on the design of <i>JCells</i>, a
+language which builds cells on top of the fundamental Java notions of
+class, object, and virtual machine.
+</font></blockquote>
+
+<p>
+<li>Yu David Liu and Scott Smith. <a
+href="papers/fcs02a.pdf">A Component
+Security Infrastructure</a>. Foundations of Computer Security
+(FCS'02), Copenhagen, Denmark, July 2002. (<a href =
+"fcs02.ppt">slides</a>) </li>
+
+<p>
+<blockquote><font size=-1>
+This paper defines a security infrastructure
+for access control at the component level of  programming language design.
+  Distributed components are an ideal place to define and enforce significant
+security policies, because components are large entities that often define
+the political boundaries of computation.  Also, rather than building a security
+infrastructure from scratch, we build on a standard one, the SDSI/SPKI security
+infrastructure.
+</font></blockquote>
+
+<p>
+
+<li>Ran Rinat and Scott Smith. <a
+href="papers/lmpsc.pdf">The
+Cell Project: Component Technology for the Internet</a>. Proceedings
+of the 1st Workshop on Language Mechanisms for Programming Software
+Components, October 2001.</li> 
+
+<p>
+
+<li>Ran Rinat and Scott Smith. <a
+href="papers/wcop01.pdf">The Cell
+Project: Component Technology for the Internet</a>. Proceedings of
+the 6th Workshop on Component-Oriented Programming, Budapest, Hungary, 
+June 2001.</li>
+
+
+</ul>
+
+
+
+<h3>Drafts</h3>
+
+
+
+
+
+<ul>
+
+<li>Yu David Liu and Scott Smith and Andreas Terzis. <a
+href="papers/ensemble05.pdf">A High-level Language for Sensor
+Networks</a>. </li>
+<p>
+
+<blockquote><font size=-1>
+In this paper we describe <i>Ensemble</i>, a proposed language
+framework for sensor network programming. Our goal is to provide a
+programming framework to scientists and engineers that will allow them
+to directly code sensor network applications, without the need for
+expertise in low-level device programming. The key concepts in
+<i>Ensemble</i> are high-level communication protocol <i>connectors</i>, and
+the ability for systems programmers to define new communication
+protocols as <i>metaprotocol extensions</i>.
+</font></blockquote>
+<p>
+
+<li>Xiaoqi Lu and Scott Smith. <a
+href="papers/microkernel05.pdf">A Secure Microkernel Virtual Machine</a>. </li>
+<p>
+
+
+<blockquote><font size=-1>
+
+In this paper, we develop a novel microkernel-based virtual machine,
+the &#956;KVM. It is a microkernel architecture because the size of the
+trusted system codebase is greatly reduced in comparison to VM's such
+as the Java Virtual Machine. The &#956;KVM kernel manages sensitive
+resources such as I/O, and implements a minimal set of low-level
+system operations. System libraries are implemented outside the
+kernel, and run in user mode. All interactions between the kernel and
+applications are declared on explicit interfaces, and security
+policies are also enforced at these interfaces. We test our
+architecture in a &#956;KVM prototype developed for Java and show how
+the microkernel architecture supports the existing functionality of
+the J2SDK. The prototype is benchmarked, and the results show
+that our implementation compares favorably with the J2SDK and so the
+architecture does not appear to be a burden on running time.
+
+</font></blockquote>
+
+
+<p>
+<li>Yu David Liu and Ran Rinat and Scott Smith. <a
+href="papers/assemblies.pdf">Component
+Assemblies and Component Runtimes</a>. </li>
+
+<p>
+<blockquote><font size=-1>
+This paper proposes a component programming
+language that supports an integrated notion of both compile-time and run-time
+component. The centerpiece of this paper is the static, compile time notion
+of <i>assembly</i>, complementing our previous work on the dynamic, runtime
+notion of <i>cell</i>. An assembly is a declarative, stateless piece of
+code that facilitates code combination. It offers explicit typed interfaces
+to outsiders, called <i>linkers</i>, which can be used to link smaller
+assemblies into bigger, compound assemblies. Each assembly may in turn be
+        <i>loaded</i> at run-time, producing a cell in the runtime
+	environment. 
+A cell is a dynamic, stateful component that interacts with other cells via
+explicit runtime interfaces. Thus, the static assemblies and the dynamic
+cells are fully integrated.
+</font></blockquote>
+
+
+</ul>
+
+<!--#include virtual="/~scott/pll/footer.html" -->

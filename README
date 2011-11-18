@@ -1,0 +1,3 @@
+Changed to shtml version 8/09.  Have dummy forward files now for old
+versions, remove once the search engines are updated.
+old-html-version contains the old version.

@@ -1,0 +1,162 @@
+<!--#include virtual="/~scott/pll/header.html" -->
+
+<h2>Type Constraints</h2>
+
+Set constraint types are a generalization
+of the standard notion of &quot;type&quot; to types which are sets of
+constraints about program behavior.  Set constraints can capture more
+details about the potential values that can be in a variable than a
+traditional type system.  For instance, in an object-oriented language
+such as Java, a variable declared as &quot;Serializable&quot; by the
+Java type system can be any object which conforms to the Serializable
+interface, but in practice that variable will only contain the
+concrete objects which the program in fact serializes.  Knowing the
+precise classes the program is serializing at that point is useful
+both as a programming aid and as a tool to assist compilers in
+generating faster code.  Recently we have developed and implemented a
+tool which statically checks whether Java downcasts are legal using a
+set-constraint-based mechanism.
+<p>Type constraint systems are a very expressive form of type which can
+be given to programs.  They are so expressive that they can in fact
+fully record flow information about a program, namely this data value
+could flow to that operation.</p>
+<p><strong>Goal</strong>: The development of rich type constraint systems
+for object-oriented programming languages.</p>  <p>
+Our primary goal has been the extension of type constraint system to
+allow for greater expressivity and usefulness in typing more
+properties of programs. </p>
+<p><strong>Uses:</strong></p>
+<ul>
+  <li>Fine-grained type systems for flexible object-oriented languages;
+  <li>Fine-grained program analysis for compilers and other static
+      analysis consumers
+</ul>
+
+<p>
+<h2> Publications</h2>
+<p>Tiejun Wang and Scott Smith, <a 
+href="papers/ecoop01.pdf"><i>Precise Constraint-Based Type
+Inference for Java</i></a>. ECOOP 2001. <a href="papers/toplas0X.pdf">Full version</a> submitted to TOPLAS.
+<br>
+<font size=-3>
+Precise type information is invaluable for analysis and optimization
+of object-oriented programs.  
+Some forms of polymorphism found in
+object-oriented languages pose significant difficulty for type inference, in
+particular <em>data polymorphism</em>.  
+Agesen's Cartesian Product
+Algorithm (CPA) can analyze programs with parametric polymorphism in a
+reasonably precise and efficient manner, but CPA loses precision for programs
+with data polymorphism.  This paper presents a precise
+constraint-based type inference system for Java.  It uses Data Polymorphic
+CPA, a constraint-based type inference algorithm which extends CPA with the
+ability to accurately and efficiently analyze data polymorphic
+programs.  The system is implemented for the full Java language, and
+is used to statically verify the correctness of Java downcasts. 
+Benchmark results are given which show the system performs very well:
+it is significantly more accurate and is nearly as efficient as CPA.
+The implementation itself contains a number of novel optimizations 
+which proved necessary to achieve scalability.</p>
+</font>
+
+<strong><a href="http://www.cs.jhu.edu/~wtj/precise/">Try Out the Inference
+Algorithm Here!</a></strong>
+
+<br><p><br>
+Scott Smith and Tiejun Wang, <a 
+href="papers/esop00.pdf"><i>Polyvariant Flow Analysis With
+Constrained Types</i></a>. In Gert Smolka, editor,
+<em>Proceedings of the 
+2000 European Symposium on Programming (ESOP'00)</em>, volume 1782 of
+<em>Lecture Notes in Computer Science</em>, pages 382--396. Springer
+Verlag, March 2000. 
+<br>
+<font size=-3>
+The basic idea behind improving the quality of a monovariant control
+flow analysis such as 0CFA is the concept of <em>polyvariant</em>
+analyses such as Agesen's Cartesian Product Algorithm (CPA) and
+Shivers' <em>n</em>CFA.  In this paper we develop a novel framework for
+polyvariant flow analysis based on Aiken-Wimmers constrained type
+theory.  We develop instantiations of our framework to formalize
+various polyvariant algorithms, including <em>n</em>CFA and CPA.  With our
+CPA formalization, we show the call-graph based termination condition
+for CPA will not always guarantee termination. We then develop a novel
+termination condition and prove it indeed leads to a terminating
+algorithm.  Additionally, we show how data polymorphism can be modeled
+in the framework, by defining a simple extension to CPA that
+incorporates data polymorphism.
+</font>
+
+<p>
+V. Trifonov, S.Smith, <a href="papers/sas96.pdf"><i>Subtyping Constrained Types</i></a>,
+<cite>Static Analysis Symposium (SAS) 1996, Lecture Notes in Computer
+Science 1145</cite>, pp. 349-365. 
+<br>
+<font size=-3>
+Constrained type systems are a natural generalization of 
+Hindley/Milner type inference to languages with subtyping.
+This paper develops several subtyping relations on constrained types.
+We establish a full type abstraction property that equates an
+operational notion of subtyping with a semantic notion based on
+regular trees.  The decidability of this notion of subtyping is open;
+we present a decidable approximation.  Subtyping constrained types has
+application to functor signature matching. 
+</font>
+
+<p>
+J. Palsberg, S. Smith, <a
+href = "older-papers/cte.pdf"> <i>Constrained Types and their
+Expressiveness</i></a>, <cite>TOPLAS</cite> <i>18</i> (5), Sept 1996, pp.
+519-527.
+<p>
+Kim B. Bruce,
+Luca Cardelli,
+Giuseppe Castagna,
+The Hopkins Objects Group,
+Gary T. Leavens,
+and
+Benjamin Pierce.
+On Binary Methods,
+<cite>Theory and Practice of Object Systems</cite> <i>1</i> (3), 1995, pp.
+217-238.
+<br>
+Department of Computer Science, Iowa State University,
+<A HREF="ftp://ftp.cs.iastate.edu/pub/techreports/TR95-08/TR.ps.Z">
+TR95-08</A>, May 1995.
+<p>
+J. Eifrig, S. Smith, V. Trifonov, 
+<a href = "older-papers/sptio.pdf"> 
+<i>Sound Polymorphic Type Inference for Objects</i></a>,
+<cite>OOPSLA 1995</cite>, pp. 169-384.
+<p>
+J. Eifrig, S. Smith, V. Trifonov, <a href =
+"papers/mfps95.pdf"> <i>Type Inference for
+Recursively Constrained Types and its Application to OOP</i></a> (<a href =
+"older-papers/ooinfer.pdf">longer version</a>),
+<cite>Mathematical Foundations of Programming Semantics 1995</cite>
+(Elsevier <a
+href="http://www.elsevier.com/locate/entcs/"><cite>Electronic Notes in
+Theoretical Computer Science</a></cite>, volume 1).
+
+<p>
+J. Eifrig, S. Smith, V. Trifonov, A. Zwarico,
+<a href = "older-papers/aottsdi.pdf"> 
+<i>Application of OOP Type Theory: State, Decidability, Integration</i></a>,
+<cite>OOPSLA 1994</cite>, pp. 16-30.
+
+<p>
+J. Eifrig, S. Smith, V. Trifonov, A. Zwarico,
+<a href = "older-papers/itoopls.pdf"> 
+<i>An Interpretation of Typed OOP in a Language with State</i></a>,
+<cite>Lisp and Symbolic Computation</cite> <b>8</b> (4), 1995, pp. 357-397.
+<p>
+
+
+J. Eifrig, S. Smith, V. Trifonov, A. Zwarico,
+<a href = "older-papers/sioopls.pdf"> 
+<i>A Simple Interpretation of OOP in a Language 
+with State</i></a>,  
+<cite> Workshop on State in Programming Languages 1993</cite>, pp. 1-36.<p>
+
+
+<!--#include virtual="/~scott/pll/footer.html" -->
