@@ -1,4 +1,4 @@
-<!--#include virtual="/lab/header.html" -->
+<!--#include virtual="header.html" -->
 
 
 <h2>The Nuggetizer</h2>
@@ -52,4 +52,4 @@ program verification
 </font></blockquote>
 
 
-<!--#include virtual="/lab/footer.html" -->
+<!--#include virtual="footer.html" -->

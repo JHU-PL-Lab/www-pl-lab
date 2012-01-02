@@ -1,4 +1,4 @@
-<!--#include virtual="/lab/header.html" -->
+<!--#include virtual="header.html" -->
 
 
 <h2>Group Members</h2>
@@ -24,4 +24,4 @@ Jonathan Eifrig<br/>
 <p>
 &nbsp;<p>
 
-<!--#include virtual="/lab/footer.html" -->
+<!--#include virtual="footer.html" -->

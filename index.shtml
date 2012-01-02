@@ -1,4 +1,4 @@
-<!--#include virtual="/lab/header.html" -->
+<!--#include virtual="header.html" -->
 
 		<h2>Welcome to the Home of the Programming Languages Laboratory!</h2>
 		<p>The Programming Languages Laboratory focuses on fundamental problems
@@ -44,4 +44,4 @@ href="previous.shtml#ctt">Constructive Type Theory</a>.
 
 		</ul>
 </p>
-<!--#include virtual="/lab/footer.html" -->
+<!--#include virtual="footer.html" -->

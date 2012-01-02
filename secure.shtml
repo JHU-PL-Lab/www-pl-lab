@@ -1,4 +1,4 @@
-<!--#include virtual="/lab/header.html" -->
+<!--#include virtual="header.html" -->
 
 <h2>Secure Language Architectures</h2>
 <p><strong>Goal</strong>: The development of secure, programming-language-based
@@ -306,4 +306,4 @@ on Functional Programming (ICFP00)</em>, September 2000.
 
 
 </ul>
-<!--#include virtual="/lab/footer.html" -->
+<!--#include virtual="footer.html" -->

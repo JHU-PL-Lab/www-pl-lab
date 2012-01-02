@@ -1,4 +1,4 @@
-<!--#include virtual="/lab/header.html" -->
+<!--#include virtual="header.html" -->
 
 <h2>Coqa: Concurrent Objects with Quantized Atomicity</h2>
 
@@ -71,4 +71,4 @@ Ubiquitous Atomicity</a></b>. PhD Thesis, The Johns Hopkins
 
 </ul>
 
- <!--#include virtual="/lab/footer.html" -->
+ <!--#include virtual="footer.html" -->

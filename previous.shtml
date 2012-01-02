@@ -1,4 +1,4 @@
-<!--#include virtual="/lab/header.html" -->
+<!--#include virtual="header.html" -->
 
 
 <h2>Previous Projects</h2>
@@ -378,4 +378,4 @@ System</cite>. Englewood Cliffs: Prentice Hall, 1986 (with Robert
 Constable, et. al.).</p>
 
 
-<!--#include virtual="/lab/footer.html" -->
+<!--#include virtual="footer.html" -->

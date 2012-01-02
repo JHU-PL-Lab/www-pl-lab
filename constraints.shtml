@@ -1,4 +1,4 @@
-<!--#include virtual="/lab/header.html" -->
+<!--#include virtual="header.html" -->
 
 <h2>Type Constraints</h2>
 
@@ -159,4 +159,4 @@ with State</i></a>,
 <cite> Workshop on State in Programming Languages 1993</cite>, pp. 1-36.<p>
 
 
-<!--#include virtual="/lab/footer.html" -->
+<!--#include virtual="footer.html" -->
