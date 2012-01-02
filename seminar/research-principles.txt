@@ -1,0 +1,49 @@
+Scotts Research Principles.
+
+1. Don't Marry your great idea.  If it starts to smell, get looking
+   for alternatives.  But, don't bolt too fast, you could have left
+   behind something great.
+
+2. Apply Occam's razor everywhere, all the time.  Occams razor says
+   simply that when there is a choice, pick the simpler idea.  It
+   *doesn't* say that complex solutions are never required, only to
+   first try the easier way.
+
+3. When working on a well-defined problem, map and search the state
+   space.  A complex problem can have multiple dimensions with
+   different techniques in each dimension.  If you don't think about
+   the full state space you can miss the best answer.
+
+4. The principles of 1, 2 and 3.  Work with examples of small number
+   before and along with the full abstract theory.  At the very start
+   you may use the principle of 1.  Quickly get up to the principle of
+   2, and occasionally apply the principle of 3 as well.
+
+5. If you don't have at least some idea on how the solution you are
+   working on is ever going to be useful in practice, you aren't
+   solving a problem, you are flying into the Void.  This is a
+   difficult issue, we need to look ahead but not further than we can
+   reliably see since the future is quite uncertain.
+
+6. Enjoy the wipe-outs.  Even when an approach is shown to break down
+   there is progress made because a deeper understanding has been reached.
+
+7. Start anywhere.  The important thing is not how bad the starting
+   point is but that you keep moving: testing, accepting or rejecting
+   behavior, and redesigning.
+
+8. Read up.  If there seem to be some new keywords involved in what
+   you are doing, track down papers on that topic.  If you come up
+   with a new, simple elegant solution, someone else could have
+   already thought of it.
+
+9. Tests.  However abstract the problem you are working on, have a
+   suite of test examples which cover the interesting cases.  Maintain
+   the tests and add new ones when you add a new feature to the
+   theory.
+
+10. Implement, if at all possible.
+
+11. ...
+
+

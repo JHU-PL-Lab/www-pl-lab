@@ -35,10 +35,7 @@ linking and cross-computation communications. We have designed
 <i>Cells</i> for component programming, <i>Assemblages</i> for module
 systems, and <i>Classages</i> for object-oriented programming.              
 
-<p>Please read the following papers for details. The <i>Classages</i>
-language has a separate homepage <a
-href="http://www.cs.jhu.edu/~yliu/Classages">here</a>.  This project
-  is now a collaboration between JHU and SUNY Binghamton.
+This project is now a collaboration between JHU and SUNY Binghamton.
              
 
 <p>
@@ -119,10 +116,10 @@ frameworks.
 
 <p>
 
-  <li>Xiaoqi Lu and Scott Smith. <b><a href="http://www.cs.jhu.edu/~xiaoqilu/paper/p47-lu.pdf">A Microkernel 
+  <li>Xiaoqi Lu and Scott Smith. <b><a href="papers/mvm-plas06.pdf">A Microkernel 
 Virtual Machine: Building Security with Clear Interfaces</a></b>. In 
 PLAS 2006, Ottawa, Ontario, Canada.
-(<a href="paper/microkernelvm.ppt">slides</a>)
+(<a href="papers/microkernelvm.ppt">slides</a>)
 
 <p>
 <blockquote><font size=-1>
@@ -143,10 +140,10 @@ performance-wise.
 </font></blockquote>
 
 <p>
-<li> Yu David Liu and Scott Smith. <a href="http://www.cs.jhu.edu/~yliu/Classages/OOPSLA05.pdf">Interaction-Based Programming with
+<li> Yu David Liu and Scott Smith. <a href="papers/OOPSLA05.pdf">Interaction-Based Programming with
 Classages.</a> In Proceedings of the 20th Conference on Object-Oriented
 Programming, Systems, Languages and Applications (OOPSLA'05), San
-Diego, California, USA, October 2005. (<a href="http://www.cs.jhu.edu/~yliu/Classages/OOPSLA05_slides.pdf">slides</a>)</li> 
+Diego, California, USA, October 2005. (<a href="papers/OOPSLA05_slides.pdf">slides</a>)</li> 
 
 <p>
 

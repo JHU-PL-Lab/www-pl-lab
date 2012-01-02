@@ -36,7 +36,7 @@ properties of programs. </p>
 <h2> Publications</h2>
 <p>Tiejun Wang and Scott Smith, <a 
 href="papers/ecoop01.pdf"><i>Precise Constraint-Based Type
-Inference for Java</i></a>. ECOOP 2001. <a href="papers/toplas0X.pdf">Full version</a> submitted to TOPLAS.
+Inference for Java</i></a>. ECOOP 2001. <a href="papers/toplas0X.pdf">Full version</a>.
 <br>
 <font size=-3>
 Precise type information is invaluable for analysis and optimization
