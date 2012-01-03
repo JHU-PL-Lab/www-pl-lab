@@ -39,7 +39,15 @@ prototype implementation <i>CoqaJava</i>.
 
 <ul>
 
-<li> Yu David Liu, Xiaoqi Lu, and Scott Smith. <b><a
+  <li>Aditya Kulkarni, Yu David Liu, Scott Smith. <a href="papers/OOPSLA10.pdf">Task Types for Pervasive Atomicity</a>, Proceedings of the 25th ACM Conference on Object-Oriented Programming, Systems, Languages and Applications (OOPSLA 2010). Reno, Nevada, USA, October 2010.  <a href="papers/OOPSLA10-slides.pptx">Slides</a>.
+      <p>
+<blockquote><font size=-3> <strong>Abstract:</strong>
+      Atomic regions are an important concept in correct con- current programming: since atomic regions can be viewed as having executed in a single step, atomicity greatly re- duces the number of possible interleavings the programmer needs to consider. This paper describes a method for building atomicity into a programming language in an organic fash- ion. We take the view that atomicity holds for whole threads by default, and a division into smaller atomic regions occurs only at points where an explicit need for sharing is needed and declared. A corollary of this view is every line of code is part of some atomic region. We define a polymorphic type system, Task Types, to enforce most of the desired atomicity properties statically. We show the reasonableness of our type system by proving that type soundness, isolation invariance, and atomicity enforcement properties hold at run time. We also present initial results of a Task Types implementation built on Java.
+</font>
+    </blockquote>
+<p>
+
+  <li> Yu David Liu, Xiaoqi Lu, and Scott Smith. <b><a
 href="papers/CC08.pdf">Coqa:
   Concurrent Objects with Quantized Atomicity</a></b>.  Compiler
   Construction (CC), 2008.   <a href="papers/Coqa.ppt">slides</a>
