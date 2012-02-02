@@ -120,7 +120,7 @@ Potential topics for discussion:<br>
       <ul>
   <li><a href="http://dl.acm.org/citation.cfm?id=1993516&CFID=40218224&CFTOKEN=24464853">Automatic CPU-GPU communication management and optimization
 </a>
-  <li>Taming wildcards from PLDI 2011
+  <li>Taming wildcards, from PLDI 2011
   <li><a href="http://dl.acm.org/citation.cfm?id=1993567&CFID=40218224&CFTOKEN=24464853">
 Scaling abstraction refinement via pruning</a>
   <li>Aiken PLDI 11 papers
