@@ -15,7 +15,8 @@ the usefulness of the solution.</p>
 Current research projects include the following (they are also listed on the
 		menu above):
 		<ul>
-
+        <li><a href="big-bang/">BigBang</a>:
+          Typed scripting language design</li>
 		  	<li><a href="bsj/">BSJ</a>:
 			    Backstage Java: Difference-based metaprogramming for Java</li>
 
