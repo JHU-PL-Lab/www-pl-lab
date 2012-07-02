@@ -1,0 +1,154 @@
+<!--#include virtual="header.html" -->
+
+<h2> Programming Languages Seminar Fall 2009 </h2>
+Meeting time: Mondays 11-noon
+<br> Classroom: NEB 218
+<!-- ================================================== -->
+
+
+
+<h3>Discussion Schedule </h3>
+
+<table width="100%" border="1" cellspacing="0" cellpadding="0" bordercolor="#CCCCCC">
+<TR>
+  <TD><strong>Date</strong></TD>
+  <TD><strong>Paper/Topic</strong></TD>
+  <TD><strong>Discussion Leader</strong></TD>
+</TR>
+
+<TR>
+  <TD>9/14</TD>
+  <TD>Organizational Meeting</TD>
+  <TD>Everyone</TD>
+</TR>
+
+<TR>
+  <TD>9/21</TD>
+  <TD><a href="http://lambda-the-ultimate.org/node/3319">Types Are Calling Conventions</a>, Max Bolingbroke and Simon Peyton
+      Jones, Haskell Symposium 2009 </TD>
+  <TD>Wes</TD>
+</TR>
+
+
+<TR>
+  <TD>9/28</TD>
+  <TD><a href="http://delivery.acm.org/10.1145/120000/113470/p293-reppy.pdf?key1=113470&key2=9500514521&coll=GUIDE&dl=GUIDE&CFID=55080278&CFTOKEN=38200299">CML
+      : A higher order concurrent language</a> (also see <a href="http://www.cs.princeton.edu/courses/archive/fall99/cs441/slides/cml.ps">Harper slides</a>
+      421 on)
+and 
+<a href="http://delivery.acm.org/10.1145/1600000/1596588/p257-reppy.pdf?key1=1596588&key2=9619804521&coll=GUIDE&dl=&CFID=54968049&CFTOKEN=16480177
+">Parallel Concurrent ML : ICFP 09</a>
+</TD>
+  <TD>Hari</TD>
+</TR>
+
+
+<TR>
+  <TD>10/5</TD>
+  <TD>CML Implementation Continued</TD>
+  <TD>Hari</TD>
+</TR>
+
+
+<TR>
+  <TD>10/12</TD>
+  <TD><a href="http://www.cs.jhu.edu/~scott/pll/papers/WGP09.pptx"> Type-Specialized Staged Programming with Process Separation</a></TD>
+  <TD>ScottS</TD>
+</TR>
+
+
+<TR>
+  <TD>10/19</TD>
+  <TD>Backstage Java</TD>
+  <TD>Zach</TD>
+</TR>
+
+
+<TR>
+  <TD>10/26</TD>
+  <TD><a href="http://research.sun.com/projects/plrg/Publications/ICFPAugust2009Steele.pdf">Guy Steele ICFP 09 invited talk</a></TD>
+  <TD>ScottS</TD>
+</TR>
+
+
+<TR>
+  <TD>11/2</TD>
+  <TD><a
+  href="http://www.ccs.neu.edu/scheme/pubs/icfp09-fffk.pdf">Felleisen
+  Course:  Fun for Freshman Kids</a> (<a href="http://www.ccs.neu.edu/home/matthias/Presentations/09ICFP/09icfp.pdf">slides</a>)</TD>
+  <TD>Wes</TD>
+</TR>
+
+
+<TR>
+  <TD>11/9</TD>
+  <TD><a
+  href="http://research.microsoft.com/apps/pubs/default.aspx?id=79812">Complete
+  and Decidable Type Inference for GADTs</a></TD>
+  <TD>Wes</TD>
+</TR>
+
+
+<TR>
+  <TD>11/16</TD>
+  <TD><a href="http://golang.org/">Go Language</a> (<a href="http://golang.org/doc/go_talk-20091030.pdf">slides</a>)</TD>
+  <TD>ScottS</TD>
+</TR>
+
+
+<TR>
+  <TD>11/23</TD>
+  <TD><a href="http://coq.inria.fr/getting-started">Coq Tutorial </a>;
+<a href="http://adam.chlipala.net/cpdt/">Certified Programming with Dependant Types.</a>;
+<a href="http://adam.chlipala.net/itp/">Interactive Computer Theorem Proving</a>
+</TD>
+  <TD>ScottD</TD>
+</TR>
+
+
+<TR>
+  <TD>11/30</TD>
+  <TD><a
+  href="http://www.mpi-sws.org/~dreyer/papers/f-ing/main.pdf">F-ing Modules</a></TD>
+  <TD>Wes</TD>
+</TR>
+
+
+<TR>
+  <TD>12/7</TD>
+  <TD><a href="http://portal.acm.org/citation.cfm?id=1411204.1411249">Compiling Self-Adjusting Programs with Continuations</a></TD>
+  <TD>ScottS</TD>
+</TR>
+
+
+</table>
+
+<br>
+<H3>
+Topics for discussion:<br>
+</H3>
+<ul>
+  <li>CML language (Hari)
+  <li>WGP '09 talk (Scott)
+  <li>Haskell GADTs and <a
+      href="http://research.microsoft.com/apps/pubs/default.aspx?id=79812">Complete
+      and Decidable Type Inference for GADTs</a>, an ICFP 2009 paper
+      on them (Wes) 
+  <li>Coq tutorial seminars (Wes)
+  <li><a href="http://www.cs.cmu.edu/~joshuad/papers/thesis/">Joshua Dunfeld PhD thesis</a> (<a href="http://www.cs.cmu.edu/~joshuad/talks/defense/">slides</a>)- dependent types with decidability (Wes)
+  <li>(Dependent types background)
+  <li><a href="http://portal.acm.org/citation.cfm?id=1111569"Trade-offs in Metaprogramming></a> (Zach)
+  <li>Well-founded inductive definitions; Licata Zeil.. and Harper
+      paper (Wes)
+  <li>Guy Steele's invited ICFP talk on multicore programming
+      languages (Scott)
+  <li><a href="http://lambda-the-ultimate.org/node/3540">Fun for Freshman Kids </a> talk from ICFP 09(Wes)
+  <li>Control theory - discrete and continuous - and programming (Scott)</li>
+  <li>Staged Programming: Meta-OCaml and state blow-up</li>
+  <li><a href="http://ttic.uchicago.edu/~hammer/pldi09/ttic-tr-2009-2.pdf">CEAL: A C-Based Language for Self-Adjusting Computation</a> (Scott)
+<li><em>Our own research</em></li>
+</ul>
+<H3>
+
+<!--#include virtual="footer.html" -->
+

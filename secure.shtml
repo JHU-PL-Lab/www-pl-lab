@@ -45,7 +45,7 @@ Architecture
 <h3>Publications</h3>
 <ul>
   <li>Paritosh Shroff and Scott F. Smith.  <a
-href="http://www.cs.jhu.edu/~pari/timing.pdf">Securing Timing Channels
+href="papers/timing08.pdf">Securing Timing Channels
 at Runtime</a>, Technical Report, July
 2008.
 <p>
@@ -106,7 +106,7 @@ necessarily need intimate knowledge of the program source.
 
 <p>
 <li>Scott Smith and Mark Thober
-<I><a href="http://www.cs.jhu.edu/~mthober/papers/smith-thober-plas06.pdf">Refactoring Programs to Secure Information
+<I><a href="papers/smith-thober-plas06.pdf">Refactoring Programs to Secure Information
 Flows</a></I>
 ACM SIGPLAN Workshop on Programming Languages and Analysis for
 Security (PLAS), 2006.
@@ -130,7 +130,7 @@ components of different security levels.  </font>
 
 <p><li>
 Scott Smith and Mark Thober
-<I><a href="http://www.cs.jhu.edu/~mthober/securingdata06.pdf">Securing Data
+<I><a href="papers/securingdata06.pdf">Securing Data
 	  at Java IO Boundaries</a></I>
 Draft.
 

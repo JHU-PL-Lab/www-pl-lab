@@ -16,6 +16,9 @@ Current research projects include the following (they are also listed on the
 		menu above):
 		<ul>
 
+		  	<li><a href="http://pl.cs.jhu.edu/~zpalmer/research/bsj/">BSJ</a>:
+			    Backstage Java: Difference-based metaprogramming for Java</li>
+
 		  	<li><a href="nest.shtml">NesT</a>:
 			    Staged programming for sensor networks</li>
 		  	<li><a href="coqa.shtml">Coqa</a>:
