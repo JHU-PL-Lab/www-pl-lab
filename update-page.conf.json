@@ -1,0 +1,106 @@
+{
+    "webRoot": "/var/www/pl.cs.jhu.edu/",
+    "repositories":
+        {
+            "oose-group1": {
+                "path": "/oose/group/1",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-1/webpage.git"
+            },
+            "oose-group2": {
+                "path": "/oose/group/2",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-2/webpage.git"
+            },
+            "oose-group3": {
+                "path": "/oose/group/3",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-3/webpage.git"
+            },
+            "oose-group4": {
+                "path": "/oose/group/4",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-4/webpage.git"
+            },
+            "oose-group5": {
+                "path": "/oose/group/5",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-5/webpage.git"
+            },
+            "oose-group6": {
+                "path": "/oose/group/6",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-6/webpage.git"
+            },
+            "oose-group7": {
+                "path": "/oose/group/7",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-7/webpage.git"
+            },
+            "oose-group8": {
+                "path": "/oose/group/8",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-8/webpage.git"
+            },
+            "oose-group9": {
+                "path": "/oose/group/9",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-9/webpage.git"
+            },
+            "oose-group10": {
+                "path": "/oose/group/10",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-10/webpage.git"
+            },
+            "oose-group11": {
+                "path": "/oose/group/11",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-11/webpage.git"
+            },
+            "oose-group12": {
+                "path": "/oose/group/12",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-12/webpage.git"
+            },
+            "oose-group13": {
+                "path": "/oose/group/13",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-13/webpage.git"
+            },
+            "oose-group14": {
+                "path": "/oose/group/14",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-14/webpage.git"
+            },
+            "oose-group15": {
+                "path": "/oose/group/15",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-15/webpage.git"
+            },
+            "oose-group16": {
+                "path": "/oose/group/16",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-16/webpage.git"
+            },
+            "oose-group17": {
+                "path": "/oose/group/17",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-17/webpage.git"
+            },
+            "oose-group18": {
+                "path": "/oose/group/18",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-18/webpage.git"
+            },
+            "oose-group19": {
+                "path": "/oose/group/19",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-19/webpage.git"
+            },
+            "oose-group20": {
+                "path": "/oose/group/20",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-20/webpage.git"
+            },
+            "oose-group21": {
+                "path": "/oose/group/21",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-21/webpage.git"
+            },
+            "oose-group22": {
+                "path": "/oose/group/22",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-22/webpage.git"
+            },
+            "oose-group23": {
+                "path": "/oose/group/23",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-23/webpage.git"
+            },
+            "oose-group24": {
+                "path": "/oose/group/24",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-24/webpage.git"
+            },
+            "oose-group25": {
+                "path": "/oose/group/25",
+                "url": "gitlab@pl.cs.jhu.edu:oose-13-group-25/webpage.git"
+            }
+        }
+}
