@@ -1,23 +1,64 @@
 ---
-layout: default
 ---
 
-<div class="home">
+<div class="row">
+  <div class="col-md-6">
+    <p>
+      The Programming Languages Laboratory focuses on fundamental problems in
+      programming languages. We are interested in addressing challenging
+      problems which can also have practical impact within a ten year time
+      frame. A common thread of much of our research is the extraction of static
+      (compile-time) properties of programs. This can include type information,
+      flow information, security information, and other program
+      properties. Efforts involve both solving of fundamental problems, and
+      implementation to justify the usefulness of the solution.
+    </p>
+  </div>
+  <div class="col-md-6">
+    <h3 class="index-projects-title">
+      Projects
+    </h3>
 
-  <h1 class="page-heading">Posts</h1>
+    <div class="list-group">
+      <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">BigBang</h4>
+        <p class="list-group-item-text">Typed scripting language design</p>
+      </a>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">BSJ</h4>
+        <p class="list-group-item-text">Backstage Java: Difference-based metaprogramming for Java</p>
+      </a>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+      <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">NesT</h4>
+        <p class="list-group-item-text">Staged programming for sensor networks</p>
+      </a>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">Coqa</h4>
+        <p class="list-group-item-text">Improving atomicity and programmability for multi-core machienes</p>
+      </a>
 
+      <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">Nuggetizer</h4>
+        <p class="list-group-item-text">Extracting inductive definitions from arbitrary programs for automated program reasoning</p>
+      </a>
+
+      <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">NewArch</h4>
+        <p class="list-group-item-text">Rethinking classes, modules, and component boundaries and interactions</p>
+      </a>
+
+      <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">Security</h4>
+        <p class="list-group-item-text">Securing programs by using programming language methodology to track data</p>
+      </a>
+
+      <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">Earlier Projects</h4>
+        <p class="list-group-item-text">Type Constraints, Specification Diagrams, Foundations of Actor Computation, Foundations of Operational Semantics, Hardware Verification, and Constructive Type Theory</p>
+      </a>
+    </div>
+  </div>
 </div>
