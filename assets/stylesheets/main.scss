@@ -2,7 +2,7 @@
 ---
 @charset "utf-8";
 
-@import "bower_components/bootswatch/{{ site.sass.theme }}/variables";
+@import "vendor/bootswatch/{{ site.sass.theme }}/variables";
 
 $font-size-base: 20px;
 $font-size-large:         ceil(($font-size-base * 1.25));
@@ -17,8 +17,8 @@ $font-size-h6:            ceil(($font-size-base * 0.85));
 
 $navbar-height: 70px;
 
-@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
-@import "bower_components/bootswatch/{{ site.sass.theme }}/bootswatch";
+@import "vendor/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "vendor/bootswatch/{{ site.sass.theme }}/bootswatch";
 
 .navbar-subtitle {
   font-size: $font-size-small;
