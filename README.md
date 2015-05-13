@@ -44,7 +44,7 @@ $ bundle install
 Finally, run [Jekyll][jekyll] in development server mode:
 
 ```console
-$ jekyll serve
+$ bundle exec jekyll serve
 ```
 
 Now, visit the URI [Jekyll][jekyll] informed (usually <http://localhost:4000>)
@@ -86,7 +86,7 @@ Deployment
 following command:
 
 ```console
-$ jekyll build
+$ bundle exec jekyll build
 ```
 
 The contents of that folder should be copied to the webserver. How this step is
