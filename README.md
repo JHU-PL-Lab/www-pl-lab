@@ -1,6 +1,8 @@
 The Programming Languages Laboratory website
 ============================================
 
+# TODO: Explain about docker-compose
+
 Source code for The Programming Languages Laboratory website at
 <https://pl.cs.jhu.edu>.
 
