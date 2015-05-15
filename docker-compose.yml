@@ -1,6 +1,13 @@
-web:
+jekyll:
   image: jekyll/jekyll
   volumes:
     - .:/srv/jekyll
   ports:
     - "4000:4000"
+  entrypoint: ["jekyll"]
+bower:
+  image: blinkmobile/bower
+  working_dir: /srv/jekyll/
+  volumes_from:
+    - jekyll
+  entrypoint: ["bower", "--allow-root"]

@@ -3,6 +3,10 @@ The Programming Languages Laboratory website
 
 # TODO: Explain about docker-compose
 
+docker-compose run jekyll
+docker-compose run jekyll build
+docker-compose run bower
+
 Source code for The Programming Languages Laboratory website at
 <https://pl.cs.jhu.edu>.
 
