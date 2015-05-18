@@ -1,89 +1,45 @@
 The Programming Languages Laboratory website
 ============================================
 
-# TODO: Explain about docker-compose
-
-docker-compose run jekyll
-docker-compose run jekyll build
-docker-compose run bower
-
 Source code for The Programming Languages Laboratory website at
 <https://pl.cs.jhu.edu>.
 
 Development
 -----------
 
-The website is developed using [Jekyll][jekyll], a static site generator. It's a
-[Ruby gem][rubygems] that should be installed using [Bundler][bundler].
+Serve the website on your local machine for development with a container
+provided by [Docker][what-is-docker] and managed by
+[Docker Compose][docker-compose].
 
-Assets dependencies are managed using [Bower][bower], a package manager for the
-web.
+1. Install [Docker and Docker Compose][docker-compose-installation].
 
-The design uses [Bootstrap][bootstrap], with a theme from
-[Bootswatch][bootswatch].
+2. Run:
 
-### Installation
+  ```console
+  $ docker-compose up jekyll
+  ```
 
-Here are the instructions on how to set everything up to run the website on your
-machine:
+3. If you're running [Docker][docker] natively on Linux, visit
+   <http://localhost:4000>. If you're on OS X or Windows and you're using
+   [`boot2docker`][boot2docker], check the IP of the virtual machine with
+   `boot2docker ip` and visit <http://ip:4000>.
 
-#### Contributing with contents
+Edit the [Markdown][kramdown] files with the contents and the results should be
+immediately available for preview by refreshing the browser.
 
-Make sure you have a recent enough version of [Ruby][ruby] (2.0.0 or
-up). GNU/Linux packages are available for all major distributions, OS X already
-comes with it and Windows users can rely on [RubyInstaller][ruby-installer].
+Install assets dependencies
+---------------------------
 
-You must be able to install [Ruby gems][rubygems] (packages/libraries). Use the
-following to install [Bundler][bundler]:
+Assets dependencies (e.g. [jQuery][jquery], [Bootstrap][bootstrap]) are managed
+using [Bower][bower], a package manager for the web.
 
-```console
-$ gem install bundler
-```
-
-Then, use [Bundler][bundler] to install the appropriate version of the
-dependencies (including [Jekyll][jekyll]):
+In order to add a dependency, edit `bower.json` and run:
 
 ```console
-$ bundle install
+$ docker-compose run --rm bower
 ```
 
-Finally, run [Jekyll][jekyll] in development server mode:
-
-```console
-$ bundle exec jekyll serve
-```
-
-Now, visit the URI [Jekyll][jekyll] informed (usually <http://localhost:4000>)
-on your browser.
-
-Any changes you make to the website are immediately available on your browser,
-just refresh the page.
-
-The contents are [Markdown][kramdown] files, which you can edit on your regular
-text editor.
-
-#### Contributing with design
-
-If you want to fiddle with the design of the website (instead of just
-contributing with content), in addition to following the above steps, you may
-need to add new assets dependencies (e.g. [jQuery][jquery],
-[Bootstrap][bootstrap]). Those are managed by [Bower][bower], which is a
-[Node.js][node-js] package available through [npm][npm].
-
-Installing [Node.js][node-js] is as easy as installing a package in
-GNU/Linux. OS X and Windows users can use the installer available on the
-[website][node-js-installer].
-
-Then, install [Bower][bower] using:
-
-```console
-$ npm install -g bower
-```
-
-Dependencies are stored in `assets/vendor`.
-
-CSS is pre-processed with [Sass][sass], as you may notice by the `.scss`
-extension.
+The packages are installed under `assets/vendor/`.
 
 Deployment
 ----------
@@ -92,7 +48,7 @@ Deployment
 following command:
 
 ```console
-$ bundle exec jekyll build
+$ docker-compose run --rm jekyll build
 ```
 
 The contents of that folder should be copied to the webserver. How this step is
@@ -101,17 +57,12 @@ i.e. any push the the `master` branch will trigger a build.
 
 
 [jekyll]: http://jekyllrb.com
-[rubygems]: https://rubygems.org/
 [bower]: http://bower.io/
-[bundler]: http://bundler.io/
-[ruby]: https://www.ruby-lang.org
-[bootstrap]: http://getbootstrap.com/
-[bootswatch]: http://bootswatch.com/
-[ruby-installer]: http://rubyinstaller.org/
-[node-js]: https://nodejs.org/
 [jquery]: http://jquery.com/
-[npm]: https://www.npmjs.com/
-[homebrew]: http://brew.sh/
-[node-js-installer]: https://nodejs.org/download/
 [kramdown]: http://kramdown.gettalong.org/quickref.html
-[sass]: http://sass-lang.com/
+[bootstrap]: http://getbootstrap.com/
+[what-is-docker]: https://www.docker.com/whatisdocker/
+[docker-compose]: http://docs.docker.com/compose/
+[docker-compose-installation]: https://docs.docker.com/compose/install/
+[boot2docker]: http://boot2docker.io/
+[docker]: https://www.docker.com/
