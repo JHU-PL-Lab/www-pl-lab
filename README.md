@@ -11,7 +11,17 @@ Serve the website on your local machine for development with a container
 provided by [Docker][what-is-docker] and managed by
 [Docker Compose][docker-compose].
 
-1. Install [Docker and Docker Compose][docker-compose-installation].
+1. Install [Docker and Docker Compose][docker-compose-installation]. If you're
+   on GNU/Linux, you can choose to install them directly on your machine. If
+   you're on Windows or OS X (or GNU/Linux), you might prefer to use a virtual
+   machine with those tools already configured. Here are the steps to do that:
+
+   1. Install [VirtualBox][virtualbox].
+   2. Install [Vagrant][vagrant].
+   3. Install [Docker Compose plugin for Vagrant][vagrant-docker-compose].
+   4. Run `vagrant up` to start the virtual machine.
+   5. Run `vagrant ssh` to login to the virtual machine and proceed with the
+      next steps.
 
 2. Run:
 
@@ -66,3 +76,6 @@ i.e. any push the the `master` branch will trigger a build.
 [docker-compose-installation]: https://docs.docker.com/compose/install/
 [boot2docker]: http://boot2docker.io/
 [docker]: https://www.docker.com/
+[virtualbox]: https://www.virtualbox.org/
+[vagrant]: https://www.vagrantup.com/
+[vagrant-docker-compose]: https://github.com/leighmcculloch/vagrant-docker-compose
