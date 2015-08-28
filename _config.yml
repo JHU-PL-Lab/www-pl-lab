@@ -7,9 +7,10 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://pl.cs.jhu.edu" # the base hostname & protocol for your site
 exclude:
-  - Gemfile
-  - Gemfile.lock
   - README.md
+  - Vagrantfile
+  - bower.json
+  - docker-compose.yml
 
 # Build settings
 markdown: kramdown
