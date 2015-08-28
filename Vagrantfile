@@ -8,7 +8,9 @@ if ! uninstalled_required_plugins.empty? && ARGV.first != "plugin"
   exec "vagrant plugin install '#{uninstalled_required_plugins.join("' '")}' && vagrant '#{ARGV.join("' '")}'"
 end
 
-puts "IMPORTANT: You should run `vagrant fsnotify' on a separate terminal to enable auto-reloading features."
+if ["up", "exec"].include?(ARGV.first)
+  puts "IMPORTANT: You should run `vagrant fsnotify' on a separate terminal to enable auto-reloading features."
+end
 
 Vagrant.configure(2) do |config|
   config.vm.box = "ubuntu/trusty64"
