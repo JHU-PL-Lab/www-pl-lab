@@ -20,45 +20,12 @@
     </h3>
 
     <div class="list-group">
-      <a href="#" class="list-group-item">
-        <h4 class="list-group-item-heading">BigBang</h4>
-        <p class="list-group-item-text">Typed scripting language design</p>
-      </a>
-
-      <a href="#" class="list-group-item">
-        <h4 class="list-group-item-heading">BSJ</h4>
-        <p class="list-group-item-text">Backstage Java: Difference-based metaprogramming for Java</p>
-      </a>
-
-      <a href="#" class="list-group-item">
-        <h4 class="list-group-item-heading">NesT</h4>
-        <p class="list-group-item-text">Staged programming for sensor networks</p>
-      </a>
-
-      <a href="#" class="list-group-item">
-        <h4 class="list-group-item-heading">Coqa</h4>
-        <p class="list-group-item-text">Improving atomicity and programmability for multi-core machienes</p>
-      </a>
-
-      <a href="#" class="list-group-item">
-        <h4 class="list-group-item-heading">Nuggetizer</h4>
-        <p class="list-group-item-text">Extracting inductive definitions from arbitrary programs for automated program reasoning</p>
-      </a>
-
-      <a href="#" class="list-group-item">
-        <h4 class="list-group-item-heading">NewArch</h4>
-        <p class="list-group-item-text">Rethinking classes, modules, and component boundaries and interactions</p>
-      </a>
-
-      <a href="#" class="list-group-item">
-        <h4 class="list-group-item-heading">Security</h4>
-        <p class="list-group-item-text">Securing programs by using programming language methodology to track data</p>
-      </a>
-
-      <a href="#" class="list-group-item">
-        <h4 class="list-group-item-heading">Earlier Projects</h4>
-        <p class="list-group-item-text">Type Constraints, Specification Diagrams, Foundations of Actor Computation, Foundations of Operational Semantics, Hardware Verification, and Constructive Type Theory</p>
-      </a>
+      {% for project in site.data.projects %}
+        <a href="{{ project.link }}" class="list-group-item">
+          <h4 class="list-group-item-heading">{{ project.name }}</h4>
+          <p class="list-group-item-text">{{ project.short_description }}</p>
+        </a>
+      {% endfor %}
     </div>
   </div>
 </div>
