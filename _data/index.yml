@@ -1,0 +1,13 @@
+description: |
+
+  The Programming Languages Laboratory focuses on fundamental problems in
+  programming languages.
+
+  We are interested in addressing challenging problems which can also have
+  practical impact within a ten year time frame. A common thread of much of our
+  research is the extraction of static (compile-time) properties of
+  programs. This can include type information, flow information, security
+  information, and other program properties.
+
+  Efforts involve both solving of fundamental problems, and implementation to
+  justify the usefulness of the solution.

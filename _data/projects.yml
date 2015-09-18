@@ -1,41 +1,41 @@
 - name: BigBang
-  short_description: |
+  description: |
     Typed scripting language design
   link: http://big-bang-lang.org
 
 - name: BSJ
-  short_description: |
+  description: |
     Backstage Java: Difference-based metaprogramming for Java
   link: /projects/bsj
 
 - name: NesT
-  short_description: |
+  description: |
     Staged programming for sensor networks
   link: /project/
 
 - name: Coqa
-  short_description: |
+  description: |
     Improving atomicity and programmability for multi-core machienes
   link: /project/
 
 - name: Nuggetizer
-  short_description: |
+  description: |
     Extracting inductive definitions from arbitrary programs for automated
     program reasoning
   link: /project/
 
 - name: NewArch
-  short_description: |
+  description: |
     Rethinking classes, modules, and component boundaries and interactions
   link: /project/
 
 - name: Security
-  short_description: |
+  description: |
     Securing programs by using programming language methodology to track data
   link: /project/
 
 - name: Earlier Projects
-  short_description: |
+  description: |
     Type Constraints, Specification Diagrams, Foundations of Actor Computation,
     Foundations of Operational Semantics, Hardware Verification, and
     Constructive Type Theory

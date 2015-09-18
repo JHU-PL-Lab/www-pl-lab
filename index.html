@@ -3,16 +3,7 @@
 
 <div class="row">
   <div class="col-md-6">
-    <p>
-      The Programming Languages Laboratory focuses on fundamental problems in
-      programming languages. We are interested in addressing challenging
-      problems which can also have practical impact within a ten year time
-      frame. A common thread of much of our research is the extraction of static
-      (compile-time) properties of programs. This can include type information,
-      flow information, security information, and other program
-      properties. Efforts involve both solving of fundamental problems, and
-      implementation to justify the usefulness of the solution.
-    </p>
+    {{ site.data.index.description | markdownify }}
   </div>
   <div class="col-md-6">
     <h3 class="index-projects-title">
@@ -23,7 +14,7 @@
       {% for project in site.data.projects %}
         <a href="{{ project.link }}" class="list-group-item">
           <h4 class="list-group-item-heading">{{ project.name }}</h4>
-          <p class="list-group-item-text">{{ project.short_description }}</p>
+          <div class="list-group-item-text">{{ project.description | markdownify }}</div>
         </a>
       {% endfor %}
     </div>
