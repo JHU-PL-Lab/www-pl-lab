@@ -10,13 +10,25 @@
       Projects
     </h3>
 
-    <div class="list-group">
-      {% for project in site.data.projects %}
-        <a href="{{ project.link }}" class="list-group-item">
-          <h4 class="list-group-item-heading">{{ project.name }}</h4>
-          <div class="list-group-item-text">{{ project.description | markdownify }}</div>
-        </a>
-      {% endfor %}
-    </div>
+    {% for project_category in site.data.projects %}
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          {{ project_category.category_title }}
+        </div>
+
+        <div class="list-group">
+          {% for project in project_category.projects %}
+            <a href="{{ project.link }}" class="list-group-item">
+              <h4 class="list-group-item-heading">{{ project.name }}</h4>
+
+              {% if project.description %}
+                <div class="list-group-item-text">{{ project.description | markdownify }}</div>
+              {% endif %}
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+
   </div>
 </div>

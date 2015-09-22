@@ -1,42 +1,59 @@
-- name: BigBang
-  description: |
-    Typed scripting language design
-  link: http://big-bang-lang.org
+-
+  category_title: "Current"
+  projects:
+    - name: Big Bang
+      description: |
+        Typed scripting language design
+      link: http://big-bang-lang.org
 
-- name: BSJ
-  description: |
-    Backstage Java: Difference-based metaprogramming for Java
-  link: /projects/bsj
+-
+  category_title: "Previous"
+  projects:
+    - name: BSJ
+      description: |
+        Backstage Java: Difference-based metaprogramming for Java
+      link: /projects/bsj
 
-- name: NesT
-  description: |
-    Staged programming for sensor networks
-  link: /project/
+    - name: NesT
+      description: |
+        Staged programming for sensor networks
+      link: /project/
 
-- name: Coqa
-  description: |
-    Improving atomicity and programmability for multi-core machienes
-  link: /project/
+    - name: Coqa
+      description: |
+        Improving atomicity and programmability for multi-core machienes
+      link: /project/
 
-- name: Nuggetizer
-  description: |
-    Extracting inductive definitions from arbitrary programs for automated
-    program reasoning
-  link: /project/
+    - name: Nuggetizer
+      description: |
+        Extracting inductive definitions from arbitrary programs for automated
+        program reasoning
+      link: /project/
 
-- name: NewArch
-  description: |
-    Rethinking classes, modules, and component boundaries and interactions
-  link: /project/
+    - name: NewArch
+      description: |
+        Rethinking classes, modules, and component boundaries and interactions
+      link: /project/
 
-- name: Security
-  description: |
-    Securing programs by using programming language methodology to track data
-  link: /project/
+    - name: Security
+      description: |
+        Securing programs by using programming language methodology to track data
+      link: /project/
 
-- name: Earlier Projects
-  description: |
-    Type Constraints, Specification Diagrams, Foundations of Actor Computation,
-    Foundations of Operational Semantics, Hardware Verification, and
-    Constructive Type Theory
-  link: /project/
+    - name: Type Constraints
+      link: /project/
+
+    - name: Specification Diagrams
+      link: /project/
+
+    - name: Foundations of Actor Computation
+      link: /project/
+
+    - name: Foundations of Operational Semantics
+      link: /project/
+
+    - name: Hardware Verification
+      link: /project/
+
+    - name: Constructive Type Theory
+      link: /project/
