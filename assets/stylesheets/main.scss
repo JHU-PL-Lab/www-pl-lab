@@ -33,3 +33,7 @@ table {
   @extend .table-striped;
   @extend .table-hover;
 }
+
+a.thumbnail {
+  text-decoration: none;
+}

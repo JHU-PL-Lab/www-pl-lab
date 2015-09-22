@@ -1,14 +1,16 @@
 -
-  category_title: "Current"
+  category_title: Current
   projects:
+
     - name: Big Bang
       description: |
         Typed scripting language design
       link: http://big-bang-lang.org
 
 -
-  category_title: "Previous"
+  category_title: Previous
   projects:
+
     - name: BSJ
       description: |
         Backstage Java: Difference-based metaprogramming for Java
