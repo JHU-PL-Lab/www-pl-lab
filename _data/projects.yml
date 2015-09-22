@@ -12,48 +12,48 @@
     - name: BSJ
       description: |
         Backstage Java: Difference-based metaprogramming for Java
-      link: /projects/bsj
+      link: /projects/bsj/
 
     - name: NesT
       description: |
         Staged programming for sensor networks
-      link: /project/
+      link: /projects/
 
     - name: Coqa
       description: |
         Improving atomicity and programmability for multi-core machienes
-      link: /project/
+      link: /projects/
 
     - name: Nuggetizer
       description: |
         Extracting inductive definitions from arbitrary programs for automated
         program reasoning
-      link: /project/
+      link: /projects/
 
     - name: NewArch
       description: |
         Rethinking classes, modules, and component boundaries and interactions
-      link: /project/
+      link: /projects/
 
     - name: Security
       description: |
         Securing programs by using programming language methodology to track data
-      link: /project/
+      link: /projects/
 
     - name: Type Constraints
-      link: /project/
+      link: /projects/
 
     - name: Specification Diagrams
-      link: /project/
+      link: /projects/
 
     - name: Foundations of Actor Computation
-      link: /project/
+      link: /projects/
 
     - name: Foundations of Operational Semantics
-      link: /project/
+      link: /projects/
 
     - name: Hardware Verification
-      link: /project/
+      link: /projects/
 
     - name: Constructive Type Theory
-      link: /project/
+      link: /projects/

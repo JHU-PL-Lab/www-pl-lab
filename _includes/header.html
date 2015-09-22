@@ -9,7 +9,7 @@
           <span class="icon-bar"></span>
         </button>
         <p>
-          <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}<br />
+          <a class="navbar-brand" href="/">{{ site.title }}<br />
             <small class="navbar-subtitle">{{ site.subtitle }}</small>
           </a>
         </p>
@@ -17,17 +17,33 @@
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="{{ site.baseurl }}/members">Members <span class="sr-only">(current)</span></a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Seminar <span class="caret"></span></a>
+          {% if page.url == "/members/" %}
+            <li class="active"><a href="/members/">Members <span class="sr-only">(current)</span></a></li>
+          {% else %}
+            <li><a href="/members/">Members</a></li>
+          {% endif %}
+
+          {% if page.url contains "/seminars/" %}
+            <li class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Seminars <span class="sr-only">(current)</span><span class="caret"></span></a>
+          {% else %}
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Seminars <span class="caret"></span></a>
+          {% endif %}
             <ul class="dropdown-menu" role="menu">
               {% for seminar in site.data.seminars %}
                 <li><a href="{{ seminar.link }}">{{ seminar.title }}</a></li>
               {% endfor %}
             </ul>
           </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects <span class="caret"></span></a>
+
+          {% if page.url contains "/projects/" %}
+            <li class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects <span class="sr-only">(current)</span><span class="caret"></span></a>
+          {% else %}
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects <span class="caret"></span></a>
+          {% endif %}
 
             <ul class="dropdown-menu" role="menu">
               {% for project_category in site.data.projects %}
@@ -40,9 +56,13 @@
                 {% endunless %}
               {% endfor %}
             </ul>
-
           </li>
-          <li><a href="#">Contact</a></li>
+
+          {% if page.url == "/contact/" %}
+            <li class="active"><a href="/contact/">Contact <span class="sr-only">(current)</span></a></li>
+          {% else %}
+            <li><a href="/contact/">Contact</a></li>
+          {% endif %}
         </ul>
       </div>
     </div>

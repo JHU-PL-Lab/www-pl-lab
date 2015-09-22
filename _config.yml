@@ -2,9 +2,8 @@
 title: The Programming Languages Laboratory
 subtitle: at The Johns Hopkins University
 email: pl.cs@jhu.edu
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   The Programming Languages Laboratory at The Johns Hopkins University.
-baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://pl.cs.jhu.edu" # the base hostname & protocol for your site
 exclude:
   - README.md
