@@ -1,20 +1,20 @@
 # Site settings
-title: The Programming Languages Laboratory
-subtitle: at The Johns Hopkins University
-email: pl.cs@jhu.edu
+title: "The Programming Languages Laboratory"
+subtitle: "at The Johns Hopkins University"
+email: "pl.cs@jhu.edu"
 description: >
   The Programming Languages Laboratory at The Johns Hopkins University.
-url: "https://pl.cs.jhu.edu" # the base hostname & protocol for your site
+url: "https://pl.cs.jhu.edu"
 exclude:
-  - README.md
-  - Vagrantfile
-  - bower.json
-  - docker-compose.yml
+  - "README.md"
+  - "Vagrantfile"
+  - "bower.json"
+  - "docker-compose.yml"
 
 # Build settings
-markdown: kramdown
+markdown: "kramdown"
 kramdown:
-  input: GFM
+  input: "GFM"
   hard_wrap: false
 defaults:
   -
@@ -23,5 +23,5 @@ defaults:
     values:
       layout: "default"
 sass:
-  sass_dir: assets
-  theme: lumen
+  sass_dir: "assets"
+  theme: "lumen"

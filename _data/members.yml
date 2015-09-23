@@ -1,62 +1,62 @@
 -
-  category_title: Current
+  category_title: "Current"
   members:
 
-    - name: Prof. Scott F. Smith
-      description: Principal Investigator
-      link: http://www.cs.jhu.edu/~scott/
-      avatar: /assets/images/members/scott-smith.jpg
+    - name: "Prof. Scott F. Smith"
+      description: "Principal Investigator"
+      link: "http://www.cs.jhu.edu/~scott/"
+      avatar: "/assets/images/members/scott-smith.jpg"
 
-    - name: Hari Menon
-      description: Ph.D Student
-      link: http://www.cs.jhu.edu/~hmenon/
+    - name: "Hari Menon"
+      description: "Ph.D Student"
+      link: "http://www.cs.jhu.edu/~hmenon/"
 
-    - name: Dr. Zachary Palmer
-      description: Post-doctorate fellow
-      link: http://www.cs.jhu.edu/~leafac/
-      avatar: /assets/images/members/zachary-palmer.jpg
+    - name: "Dr. Zachary Palmer"
+      description: "Post-doctorate fellow"
+      link: "http://www.cs.jhu.edu/~leafac/"
+      avatar: "/assets/images/members/zachary-palmer.jpg"
 
-    - name: Kenneth Roe
-      link: http://www.cs.jhu.edu/~roe/
+    - name: "Kenneth Roe"
+      link: "http://www.cs.jhu.edu/~roe/"
 
-    - name: Leandro Facchinetti
-      description: Ph.D. Student
-      link: http://www.cs.jhu.edu/~leafac/
-      avatar: /assets/images/members/leandro-facchinetti.jpg
+    - name: "Leandro Facchinetti"
+      description: "Ph.D. Student"
+      link: "http://www.cs.jhu.edu/~leafac/"
+      avatar: "/assets/images/members/leandro-facchinetti.jpg"
 
-    - name: Alex Rozenshteyn
-      description: Ph.D. Student
-      link: http://www.cs.jhu.edu/~arozens/
+    - name: "Alex Rozenshteyn"
+      description: "Ph.D. Student"
+      link: "http://www.cs.jhu.edu/~arozens/"
 
 -
-  category_title: Previous
+  category_title: "Previous"
   members:
 
-    - name: Paritosh Shroff
-      description: Now at Google
+    - name: "Paritosh Shroff"
+      description: "Now at Google"
 
-    - name: Yu David Liu
-      description: Now at SUNY Binghamton
-      link: http://www.cs.binghamton.edu/~davidl/
+    - name: "Yu David Liu"
+      description: "Now at SUNY Binghamton"
+      link: "http://www.cs.binghamton.edu/~davidl/"
 
-    - name: Xiaoqi Lu
-      description: Now at Google
+    - name: "Xiaoqi Lu"
+      description: "Now at Google"
 
-    - name: Mark Thober
-      description: Now at JHU Applied Physics Lab
-      link: http://www.cs.jhu.edu/~mthober/
+    - name: "Mark Thober"
+      description: "Now at JHU Applied Physics Lab"
+      link: "http://www.cs.jhu.edu/~mthober/"
 
-    - name: Chris Skalka
-      description: Now at University of Vermont
-      link: http://www.cs.uvm.edu/~skalka/
+    - name: "Chris Skalka"
+      description: "Now at University of Vermont"
+      link: "http://www.cs.uvm.edu/~skalka/"
 
-    - name: Tiejun Wang
-      description: Now at Google
+    - name: "Tiejun Wang"
+      description: "Now at Google"
 
-    - name: Elizabeth Leonard
-      description: Now at the Naval Research Lab
+    - name: "Elizabeth Leonard"
+      description: "Now at the Naval Research Lab"
 
-    - name: Valery Trifonov
-      description: Now at Goldman Sachs
+    - name: "Valery Trifonov"
+      description: "Now at Goldman Sachs"
 
-    - name: Jonathan Eifrig
+    - name: "Jonathan Eifrig"

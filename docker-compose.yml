@@ -1,15 +1,15 @@
 jekyll:
-  image: jekyll/jekyll
+  image: "jekyll/jekyll"
   volumes:
-    - .:/srv/jekyll
+    - ".:/srv/jekyll"
   ports:
     - "4000:4000"
   entrypoint: ["jekyll"]
   command: ["serve"]
 bower:
-  image: blinkmobile/bower
-  working_dir: /srv/jekyll/
+  image: "blinkmobile/bower"
+  working_dir: "/srv/jekyll/"
   volumes_from:
-    - jekyll
+    - "jekyll"
   entrypoint: ["bower", "--allow-root"]
   command: ["install"]

@@ -1,61 +1,61 @@
 -
-  category_title: Current
+  category_title: "Current"
   projects:
 
-    - name: Big Bang
+    - name: "Big Bang"
       description: |
         Typed scripting language design
-      link: http://big-bang-lang.org
+      link: "/projects/big-bang/"
 
 -
-  category_title: Previous
+  category_title: "Previous"
   projects:
 
-    - name: BSJ
+    - name: "BSJ"
       description: |
         Backstage Java: Difference-based metaprogramming for Java
-      link: /projects/bsj/
+      link: "/projects/bsj/"
 
-    - name: NesT
+    - name: "NesT"
       description: |
         Staged programming for sensor networks
-      link: /projects/
+      link: "/projects/"
 
-    - name: Coqa
+    - name: "Coqa"
       description: |
         Improving atomicity and programmability for multi-core machienes
-      link: /projects/
+      link: "/projects/"
 
-    - name: Nuggetizer
+    - name: "Nuggetizer"
       description: |
         Extracting inductive definitions from arbitrary programs for automated
         program reasoning
-      link: /projects/
+      link: "/projects/"
 
-    - name: NewArch
+    - name: "NewArch"
       description: |
         Rethinking classes, modules, and component boundaries and interactions
-      link: /projects/
+      link: "/projects/"
 
-    - name: Security
+    - name: "Security"
       description: |
         Securing programs by using programming language methodology to track data
-      link: /projects/
+      link: "/projects/"
 
-    - name: Type Constraints
-      link: /projects/
+    - name: "Type Constraints"
+      link: "/projects/"
 
-    - name: Specification Diagrams
-      link: /projects/
+    - name: "Specification Diagrams"
+      link: "/projects/"
 
-    - name: Foundations of Actor Computation
-      link: /projects/
+    - name: "Foundations of Actor Computation"
+      link: "/projects/"
 
-    - name: Foundations of Operational Semantics
-      link: /projects/
+    - name: "Foundations of Operational Semantics"
+      link: "/projects/"
 
-    - name: Hardware Verification
-      link: /projects/
+    - name: "Hardware Verification"
+      link: "/projects/"
 
-    - name: Constructive Type Theory
-      link: /projects/
+    - name: "Constructive Type Theory"
+      link: "/projects/"
