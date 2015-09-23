@@ -5,7 +5,7 @@
     - name: "Prof. Scott F. Smith"
       description: "Principal Investigator"
       link: "http://www.cs.jhu.edu/~scott/"
-      avatar: "/assets/images/members/scott-smith.jpg"
+      avatar: "/members/avatars/scott-smith.jpg"
 
     - name: "Hari Menon"
       description: "Ph.D Student"
@@ -14,7 +14,7 @@
     - name: "Dr. Zachary Palmer"
       description: "Post-doctorate fellow"
       link: "http://www.cs.jhu.edu/~leafac/"
-      avatar: "/assets/images/members/zachary-palmer.jpg"
+      avatar: "/members/avatars/zachary-palmer.jpg"
 
     - name: "Kenneth Roe"
       link: "http://www.cs.jhu.edu/~roe/"
@@ -22,7 +22,7 @@
     - name: "Leandro Facchinetti"
       description: "Ph.D. Student"
       link: "http://www.cs.jhu.edu/~leafac/"
-      avatar: "/assets/images/members/leandro-facchinetti.jpg"
+      avatar: "/members/avatars/leandro-facchinetti.jpg"
 
     - name: "Alex Rozenshteyn"
       description: "Ph.D. Student"
