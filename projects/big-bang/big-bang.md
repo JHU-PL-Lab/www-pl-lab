@@ -68,11 +68,11 @@ Publications
 
   Previous drafts
 
-  : - [March 2014](/projects/big-bang/papers/types-for-flexible-objects_2014-03-25.pdf).
+  : - [March 2014](/projects/big-bang/papers/types-for-flexible-objects-2014-03-25.pdf).
 
-    - [January 2014](/projects/big-bang/papers/types-for-flexible-objects_2014-01-13.pdf).
+    - [January 2014](/projects/big-bang/papers/types-for-flexible-objects-2014-01-13.pdf).
 
-    - [May 2013](/projects/big-bang/papers/types-for-flexible-objects_2013-05.pdf).
+    - [May 2013](/projects/big-bang/papers/types-for-flexible-objects-2013-05.pdf).
 
 - Pottayil Harisanker Menon, Zachary Palmer, Alexander Rozenshteyn, Scott
   Smith. [PatBang: Flexible type-safe pattern matching](/projects/big-bang/papers/pat-bang.pdf),
