@@ -22,13 +22,13 @@ Publications
   Abstract
 
   : Staging is a powerful language construct that allows a program at one stage
-  to manipulate and specialize a program at the next. We propose <ML> as a new
-  staged calculus designed with novel features for staged programming in modern
-  computing platforms such as embedded systems. A distinguishing feature of <ML>
-  is a model of process separation, whereby different stages of computation are
-  executed in different process spaces. Our language also supports dynamic type
-  specialization, via type abstraction, dynamic type construction, and a limited
-  form of type dependence. <ML> is endowed with a largely standard metatheory,
-  including type preservation and type safety results. We discuss the utility of
-  our language via code examples from the domain of wireless sensor network
-  programming.
+    to manipulate and specialize a program at the next. We propose <ML> as a new
+    staged calculus designed with novel features for staged programming in
+    modern computing platforms such as embedded systems. A distinguishing
+    feature of <ML> is a model of process separation, whereby different stages
+    of computation are executed in different process spaces. Our language also
+    supports dynamic type specialization, via type abstraction, dynamic type
+    construction, and a limited form of type dependence. <ML> is endowed with a
+    largely standard metatheory, including type preservation and type safety
+    results. We discuss the utility of our language via code examples from the
+    domain of wireless sensor network programming.
