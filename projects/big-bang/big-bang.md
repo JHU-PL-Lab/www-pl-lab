@@ -47,24 +47,35 @@ Publications
 ------------
 
 - Pottayil Harisanker Menon, Zachary Palmer, Alexander Rozenshteyn, Scott
-  Smith. Types for Flexible Objects, Asian Symposium on Programming Languages
-  and Systems. Singapore, November 2014. Previous drafts: (May 2013) (January
-  2014) (March 2014).
+  Smith. [Types for Flexible Objects](/projects/big-bang/papers/types-for-flexible-objects.pdf),
+  Asian Symposium on Programming Languages and Systems. Singapore, November
+  2014.
+
+  Previous drafts:
+
+  - [March 2014](/projects/big-bang/papers/types-for-flexible-objects_2014-03-25.pdf).
+
+  - [January 2014](/projects/big-bang/papers/types-for-flexible-objects_2014-01-13.pdf).
+
+  - [May 2013](/projects/big-bang/papers/types-for-flexible-objects_2013-05.pdf).
+
 
 - Pottayil Harisanker Menon, Zachary Palmer, Alexander Rozenshteyn, Scott
-  Smith. PatBang: Flexible type-safe pattern matching, technical report. Last
-  updated September 2013.
+  Smith. [PatBang: Flexible type-safe pattern matching](/projects/big-bang/papers/pat-bang.pdf),
+  technical report. Last updated September 2013.
 
 - Pottayil Harisanker Menon, Zachary Palmer, Alexander Rozenshteyn, Scott
-  Smith. A Practical, Typed Variant Object Model, Foundations of Object-Oriented
-  Languages. Tucson, AZ, USA, October 2012. Slides.
+  Smith. [A Practical, Typed Variant Object Model](/projects/big-bang/papers/a-pratical-type-variant-object-model.pdf),
+  Foundations of Object-Oriented Languages. Tucson, AZ, USA,
+  October 2012. [Slides](/projects/big-bang/slides/a-pratical-type-variant-object-model-slides.pdf).
 
 - Pottayil Harisanker Menon, Zachary Palmer, Alexander Rozenshteyn, Scott
-  Smith. Big Bang: Designing a Statically-Typed Scripting Language,
+  Smith. [Big Bang: Designing a Statically-Typed Scripting Language](/projects/big-bang/papers/big-bang.pdf),
   International Workshop on Scripts to Programs. Beijing, China,
-  June 2012. Slides.
+  June 2012. [Slides](/projects/big-bang/slides/big-bang-slides.pdf).
 
 Dissertations
 -------------
 
-- Zachary Palmer. Building a Typed Scripting Language.
+- Zachary
+  Palmer. [Building a Typed Scripting Language](/projects/big-bang/dissertations/building-a-typed-scripting-language.pdf).
