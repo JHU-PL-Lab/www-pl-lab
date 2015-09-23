@@ -25,7 +25,7 @@ Serve the website on your local machine for development.
    are immediately available on the browser) run:
 
    ```console
-   $ vagrant rsync-auto
+   $ vagrant fsnotify
    ```
 
    Edit the [Markdown][kramdown] files with the contents and the results should
