@@ -19,43 +19,43 @@
     - name: "NesT"
       description: |
         Staged programming for sensor networks
-      link: "/projects/"
+      link: "/projects/nest/"
 
     - name: "Coqa"
       description: |
         Improving atomicity and programmability for multi-core machienes
-      link: "/projects/"
+      link: "/projects/coqa/"
 
     - name: "Nuggetizer"
       description: |
         Extracting inductive definitions from arbitrary programs for automated
         program reasoning
-      link: "/projects/"
+      link: "/projects/nuggetizer/"
 
     - name: "NewArch"
       description: |
         Rethinking classes, modules, and component boundaries and interactions
-      link: "/projects/"
+      link: "/projects/new-arch/"
 
     - name: "Security"
       description: |
         Securing programs by using programming language methodology to track data
-      link: "/projects/"
+      link: "/projects/security/"
 
     - name: "Type Constraints"
-      link: "/projects/"
+      link: "/projects/type-constraints/"
 
     - name: "Specification Diagrams"
-      link: "/projects/"
+      link: "/projects/specification-diagrams/"
 
     - name: "Foundations of Actor Computation"
-      link: "/projects/"
+      link: "/projects/foundations-of-actor-computation"
 
     - name: "Foundations of Operational Semantics"
-      link: "/projects/"
+      link: "/projects/foundations-of-operational-semantics/"
 
     - name: "Hardware Verification"
-      link: "/projects/"
+      link: "/projects/hardware-verification/"
 
     - name: "Constructive Type Theory"
-      link: "/projects/"
+      link: "/projects/constructive-type-theory/"
