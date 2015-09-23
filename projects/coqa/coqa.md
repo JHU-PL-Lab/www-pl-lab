@@ -15,7 +15,7 @@ The design of Coqa follows six principles that we believe are crucial for a
 concurrent programming language:
 
 - Good Concurrency Properties Preserved by Default.
-- Always En Guarde While Sharing.
+- Always _En Guarde_ While Sharing.
 - The Importance of Being Ubiquitously Atomic.
 - Atomicity is Not Necessarily All or Nothing.
 - Optimistic Atomicity is Not Always the Best Policy.
@@ -44,18 +44,19 @@ implementation _CoqaJava_.
 Publications
 ------------
 
-- Aditya Kulkarni, Yu David Liu, Scott Smith. Task Types for Pervasive
-  Atomicity, Proceedings of the 25th ACM Conference on Object-Oriented
-  Programming, Systems, Languages and Applications (OOPSLA 2010). Reno, Nevada,
-  USA, October 2010. Slides.
+- Aditya Kulkarni, Yu David Liu, Scott
+  Smith. [Task Types for Pervasive Atomicity](/projects/coqa/papers/task-types-for-pervasive-atomicity.pdf),
+  Proceedings of the 25th ACM Conference on Object-Oriented Programming,
+  Systems, Languages and Applications (OOPSLA 2010). Reno, Nevada, USA, October
+  2010.
 
   Abstract
 
-  : Atomic regions are an important concept in correct con- current programming:
+  : Atomic regions are an important concept in correct concurrent programming:
     since atomic regions can be viewed as having executed in a single step,
-    atomicity greatly re- duces the number of possible interleavings the
+    atomicity greatly reduces the number of possible interleavings the
     programmer needs to consider. This paper describes a method for building
-    atomicity into a programming language in an organic fash- ion. We take the
+    atomicity into a programming language in an organic fashion. We take the
     view that atomicity holds for whole threads by default, and a division into
     smaller atomic regions occurs only at points where an explicit need for
     sharing is needed and declared. A corollary of this view is every line of
@@ -66,8 +67,10 @@ Publications
     hold at run time. We also present initial results of a Task Types
     implementation built on Java.
 
-- Yu David Liu, Xiaoqi Lu, and Scott Smith. Coqa: Concurrent Objects with
-  Quantized Atomicity. Compiler Construction (CC), 2008. slides
+- Yu David Liu, Xiaoqi Lu, and Scott
+  Smith. [Coqa: Concurrent Objects with Quantized Atomicity](/projects/coqa/papers/coqa-concurrent-objects-with-quantized-atomicity.pdf). Compiler
+  Construction
+  (CC), 2008. [Slides](/projects/coqa/slides/coqa-concurrent-objects-with-quantized-atomicity-slides.ppt).
 
   Abstract
 
@@ -87,5 +90,6 @@ Publications
 Dissertations
 -------------
 
-- Xiaoqi Lu. Coqa: a Concurrent Programming Model with Ubiquitous Atomicity. PhD
+- Xiaoqi
+  Lu. [Coqa: a Concurrent Programming Model with Ubiquitous Atomicity](/projects/coqa/dissertations/coqa-a-concurrent-programming-model-with-ubiquitous-atomicity.pdf). PhD
   Thesis, The Johns Hopkins University, November 2007.
