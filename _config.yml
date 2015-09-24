@@ -1,4 +1,5 @@
 # Site settings
+
 title: "The Programming Languages Laboratory"
 subtitle: "at The Johns Hopkins University"
 email: "pl.cs@jhu.edu"
@@ -6,12 +7,17 @@ description: >
   The Programming Languages Laboratory at The Johns Hopkins University.
 url: "https://pl.cs.jhu.edu"
 exclude:
+  - "Dockerfile"
+  - "Gemfile"
+  - "Gemfile.lock"
   - "README.md"
+  - "Rakefile"
   - "Vagrantfile"
   - "bower.json"
   - "docker-compose.yml"
 
 # Build settings
+
 markdown: "kramdown"
 kramdown:
   input: "GFM"

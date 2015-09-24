@@ -44,6 +44,12 @@ $ vagrant exec docker-compose run --rm bower
 
 The packages are installed under `assets/vendor/`.
 
+### Run tests
+
+```console
+$ vagrant exec docker-compose run --rm jekyll rake test
+```
+
 Deployment
 ----------
 
