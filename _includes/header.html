@@ -44,7 +44,6 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects <span class="caret"></span></a>
           {% endif %}
-
             <ul class="dropdown-menu" role="menu">
               {% for project_category in site.data.projects %}
                 <li class="dropdown-header">{{ project_category.category_title }}</li>
@@ -54,6 +53,20 @@
                 {% unless forloop.last %}
                   <li role="separator" class="divider"></li>
                 {% endunless %}
+              {% endfor %}
+            </ul>
+          </li>
+
+          {% if page.url contains "/courses/" %}
+            <li class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Courses <span class="sr-only">(current)</span><span class="caret"></span></a>
+          {% else %}
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Courses <span class="caret"></span></a>
+          {% endif %}
+            <ul class="dropdown-menu" role="menu">
+              {% for course in site.data.courses %}
+                <li><a href="{{ course.link }}">{{ course.title }}</a></li>
               {% endfor %}
             </ul>
           </li>
