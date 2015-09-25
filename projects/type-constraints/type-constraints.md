@@ -73,16 +73,16 @@ Publications
 
   : The basic idea behind improving the quality of a monovariant control flow
     analysis such as 0CFA is the concept of polyvariant analyses such as
-    Agesen's Cartesian Product Algorithm (CPA) and Shivers' _n_CFA. In this
-    paper we develop a novel framework for polyvariant flow analysis based on
-    Aiken-Wimmers constrained type theory. We develop instantiations of our
-    framework to formalize various polyvariant algorithms, including _n_CFA and
-    CPA. With our CPA formalization, we show the call-graph based termination
-    condition for CPA will not always guarantee termination. We then develop a
-    novel termination condition and prove it indeed leads to a terminating
-    algorithm. Additionally, we show how data polymorphism can be modeled in the
-    framework, by defining a simple extension to CPA that incorporates data
-    polymorphism.
+    Agesen's Cartesian Product Algorithm (CPA) and Shivers' <em>n</em>CFA. In
+    this paper we develop a novel framework for polyvariant flow analysis based
+    on Aiken-Wimmers constrained type theory. We develop instantiations of our
+    framework to formalize various polyvariant algorithms, including
+    <em>n</em>CFA and CPA. With our CPA formalization, we show the call-graph
+    based termination condition for CPA will not always guarantee
+    termination. We then develop a novel termination condition and prove it
+    indeed leads to a terminating algorithm. Additionally, we show how data
+    polymorphism can be modeled in the framework, by defining a simple extension
+    to CPA that incorporates data polymorphism.
 
 - V. Trifonov, S.Smith,
   [Subtyping Constrained Types](/projects/type-constraints/papers/subtyping-constrained-types.pdf),
