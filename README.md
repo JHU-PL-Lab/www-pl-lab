@@ -31,6 +31,12 @@ Serve the website on your local machine for development.
    Edit the [Markdown][kramdown] files with the contents and the results should
    be immediately available for preview by refreshing the browser.
 
+### Run tests
+
+```console
+$ vagrant exec docker-compose run --rm jekyll rake test
+```
+
 ### Install assets dependencies
 
 Assets dependencies (e.g. [jQuery][jquery], [Bootstrap][bootstrap]) are managed
@@ -44,12 +50,6 @@ $ vagrant exec docker-compose run --rm bower
 
 The packages are installed under `assets/vendor/`.
 
-### Run tests
-
-```console
-$ vagrant exec docker-compose run --rm jekyll rake test
-```
-
 Deployment
 ----------
 
@@ -57,7 +57,7 @@ Deployment
 following command:
 
 ```console
-$ vagrant exec docker-compose run --rm jekyll build
+$ vagrant exec docker-compose run --rm jekyll jekyll build
 ```
 
 The contents of that folder should be copied to the webserver. How this step is
