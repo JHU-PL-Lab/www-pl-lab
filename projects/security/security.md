@@ -4,6 +4,10 @@ permalink: "/projects/security/"
 narrow: true
 ---
 
+Status
+
+: Inactive.
+
 Goal
 
 : The development of secure, programming-language-based access control and

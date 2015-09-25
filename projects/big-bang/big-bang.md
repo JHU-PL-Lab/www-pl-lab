@@ -4,6 +4,10 @@ permalink: "/projects/big-bang/"
 narrow: true
 ---
 
+Status
+
+: Active.
+
 The Big Bang project aims to create a typed programming language with the feel
 and convenience of modern scripting languages. Projects such as DRuby and Typed
 Racket retrofit type systems onto existing scripting languages; unfortunately,

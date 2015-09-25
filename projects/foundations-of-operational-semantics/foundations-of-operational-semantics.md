@@ -4,6 +4,10 @@ permalink: "/projects/foundations-of-operational-semantics/"
 narrow: true
 ---
 
+Status
+
+: Inactive.
+
 This line of research addresses foundational issues in operational
 semantics. The main thrust has been to show how denotational concepts such as
 pre-ordering on elements, directed set, least fixed-point, fixed point

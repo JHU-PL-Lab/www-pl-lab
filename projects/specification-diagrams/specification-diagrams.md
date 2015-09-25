@@ -4,6 +4,10 @@ permalink: "/projects/specification-diagrams/"
 narrow: true
 ---
 
+Status
+
+: Inactive.
+
 Specification diagrams are a graphical notation for the specification of
 distributed systems. The primary design goal is to make a form of notation for
 defining message-passing behavior that is very expressive, intuitively

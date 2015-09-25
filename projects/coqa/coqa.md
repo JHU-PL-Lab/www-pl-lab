@@ -4,6 +4,10 @@ permalink: "/projects/coqa/"
 narrow: true
 ---
 
+Status
+
+: Inactive.
+
 Coqa is a new object-oriented language, (for **C**oncurrent **o**bjects with
 **q**uantized **a**tomicity), which builds concurrency and atomicity-by-design
 deeply into the object model. This ongoing project aims to reconsider of the

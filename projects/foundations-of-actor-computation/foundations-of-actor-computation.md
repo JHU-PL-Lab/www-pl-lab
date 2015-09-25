@@ -4,6 +4,10 @@ permalink: "/projects/foundations-of-actor-computation/"
 narrow: true
 ---
 
+Status
+
+: Inactive.
+
 The goal of this project is the development of rigorous semantic foundations for
 actor computation.
 

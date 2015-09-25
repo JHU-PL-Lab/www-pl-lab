@@ -4,6 +4,10 @@ permalink: "/projects/type-constraints/"
 narrow: true
 ---
 
+Status
+
+: Inactive.
+
 Set constraint types are a generalization of the standard notion of "type" to
 types which are sets of constraints about program behavior. Set constraints can
 capture more details about the potential values that can be in a variable than a

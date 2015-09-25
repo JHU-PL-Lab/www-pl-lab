@@ -4,6 +4,9 @@ permalink: "/projects/new-arch/"
 narrow: true
 ---
 
+Status
+
+: Inactive.
 
 This ongoing project aims to combine several dimensions of programming language
 technology into an infrastructure to better support the recent trends in

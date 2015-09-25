@@ -4,6 +4,10 @@ permalink: "/projects/hardware-verification/"
 narrow: true
 ---
 
+Status
+
+: Inactive.
+
 In collaboration with Amy Zwarico we defined a formal language for specifying
 asynchronous digital circuits that is based on Hoare's CSP, and verified a
 translation of these circuit specifications to hardware devices (collections of

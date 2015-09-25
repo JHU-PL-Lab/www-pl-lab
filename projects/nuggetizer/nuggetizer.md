@@ -4,6 +4,10 @@ permalink: "/projects/nuggetizer/"
 narrow: true
 ---
 
+Status
+
+: Inactive.
+
 Goal
 ----
 

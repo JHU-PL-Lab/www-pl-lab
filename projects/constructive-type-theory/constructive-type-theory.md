@@ -4,6 +4,10 @@ permalink: "/projects/constructive-type-theory/"
 narrow: true
 ---
 
+Status
+
+: Inactive.
+
 The main contributions were in developing type systems that allow both partial
 and total functions to be typed in a single type theory.
 

@@ -4,6 +4,10 @@ permalink: "/projects/nest/"
 narrow: true
 ---
 
+Status
+
+: Inactive.
+
 Our new NesT project ("improved NesC/TinyOS", _not_ a refreshing cold beverage)
 aims to simultaneously improve the efficiency (in terms of power consumption and
 memory usage) as well as programmability of sensor network applications, or in
