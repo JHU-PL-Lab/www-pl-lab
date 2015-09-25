@@ -146,7 +146,7 @@ Publications
 - Ran Rinat and Scott
   Smith. [Modular Internet Programming with Cells](/projects/new-arch/papers/modular-internet-programming-with-cells.pdf). In
   Proceedings of the 16th European Conference on Object-Oriented Programming
-  (ECOOP'02), Málaga, Spain, June 2002.
+  (ECOOP'02), Málaga, Spain, June 2002. [Slides](/projects/new-arch/slides/modular-internet-programming-with-cells-slides.pdf).
 
   Abstract
 
@@ -168,7 +168,7 @@ Publications
 - Yu David Liu and Scott
   Smith. [A Component Security Infrastructure](/projects/new-arch/papers/a-component-security-infrastructure.pdf). Foundations
   of Computer Security (FCS'02), Copenhagen, Denmark,
-  July 2002.
+  July 2002. [Slides](/projects/new-arch/slides/a-component-security-infrastructure-slides.pdf).
 
   Abstract
 

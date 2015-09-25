@@ -47,8 +47,9 @@ Publications
 - Aditya Kulkarni, Yu David Liu, Scott
   Smith. [Task Types for Pervasive Atomicity](/projects/coqa/papers/task-types-for-pervasive-atomicity.pdf),
   Proceedings of the 25th ACM Conference on Object-Oriented Programming,
-  Systems, Languages and Applications (OOPSLA 2010). Reno, Nevada, USA, October
-  2010.
+  Systems, Languages and Applications (OOPSLA 2010). Reno, Nevada, USA,
+  October 2010.
+  [Slides](/projects/coqa/slides/task-types-for-pervasive-atomicity-slides.pdf).
 
   Abstract
 
