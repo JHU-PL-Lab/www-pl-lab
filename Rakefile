@@ -17,11 +17,15 @@ task :deploy do
 
   require 'securerandom'
 
+  ##############################################################################
+
   SOURCE_BRANCH = "source"
   TARGET_BRANCH = "master"
   GENERATED_WEBSITE_PATH = "_site"
   TEMPORARY_PATH = "/tmp/www-pl-lab-" + SecureRandom.hex
   REMOTE_URL = "git@pl.cs.jhu.edu:www-pl-lab"
+  UPDATE_URL = "http://pl.cs.jhu.edu/update.py"
+  FINAL_URL = "http://pl.cs.jhu.edu/"
 
   ##############################################################################
 
@@ -392,22 +396,40 @@ FILE
 
   ##############################################################################
 
-  abort "This is not fully implemented yet."
-  temp_path = "/tmp/website-#{ rand(100000) }"
-  generated_site_path = "_site"
+  puts "Copying the contents of the temporary directory `#{TEMPORARY_PATH}' back in..."
 
-  rm_rf generated_site_path
-  sh "vagrant exec docker-compose --rm run jekyll build"
-  mv generated_site_path, temp_path
-  sh "git checkout master"
-  sh "git pull origin master"
-  rm_rf "./*"
-  mv "#{ temp_path }/*", "."
-  sh "git add -A"
-  sh "git commit -m 'Automatic website update on #{Time.now}'"
-  sh "git push origin master"
-  sh "git checkout source"
-  sh "curl http://pl.cs.jhu.edu/update.py"
+  system "rsync -av '#{TEMPORARY_PATH}' . > /dev/null 2>&1"
 
-  puts "Website updated. Go to http://pl.cs.jhu.edu/"
+  ##############################################################################
+
+  puts "Committing..."
+
+  system "git add -A && git commit -m 'Automatic update of website' > /dev/null 2>&1"
+
+  ##############################################################################
+
+  puts "Pushing changes to `#{REMOTE_URL}'..."
+
+  system "git push '#{REMOTE_URL}' '#{TARGET_BRANCH}' > /dev/null 2>&1"
+
+  ##############################################################################
+
+  puts "Calling `#{UPDATE_URL}' to update..."
+
+  system "curl '#{UPDATE_URL}' > /dev/null 2>&1"
+
+  ##############################################################################
+
+  puts "Checking the branch `#{SOURCE_BRANCH}' out..."
+
+  system "git checkout '#{SOURCE_BRANCH}' > /dev/null 2>&1"
+
+  ##############################################################################
+
+  puts <<-SUCCESS
+Deployment succeeded!
+
+Go to `#{FINAL_URL}' to see the results.
+SUCCESS
+
 end
