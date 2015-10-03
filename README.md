@@ -53,16 +53,12 @@ The packages are installed under `assets/vendor/`.
 Deployment
 ----------
 
-[Jekyll][jekyll] generates a static website under the `_site` folder with the
-following command:
+Run the following from your local machine (not the Vagrant Virtual Machine nor
+the Docker container):
 
 ```console
-$ vagrant exec docker-compose run --rm jekyll jekyll build
+$ rake deploy
 ```
-
-The contents of that folder should be copied to the webserver. How this step is
-performed is still under discussion. We're aiming at an automatic solution,
-i.e. any push the the `master` branch will trigger a build.
 
 
 [jekyll]: http://jekyllrb.com
