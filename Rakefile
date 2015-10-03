@@ -93,8 +93,8 @@ ERROR
 
     unless local_sha1 == remote_sha1
       abort <<-ERROR
-Deployment failed! Branch `#{branch}' isn't up-to-date. You should Git pull
-before proceeding.
+Deployment failed! Branch `#{branch}' isn't up-to-date. Please Git pull
+and try again.
 
 We can't automate this step, because it may lead to conflicts which you'd need
 to resolve by hand.
