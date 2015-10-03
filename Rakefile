@@ -398,7 +398,7 @@ FILE
 
   puts "Copying the contents of the temporary directory `#{TEMPORARY_PATH}' back in..."
 
-  system "rsync -av '#{TEMPORARY_PATH}' . > /dev/null 2>&1"
+  system "rsync -av '#{TEMPORARY_PATH}'/ ./ > /dev/null 2>&1"
 
   ##############################################################################
 
