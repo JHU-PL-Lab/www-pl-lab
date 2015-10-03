@@ -374,6 +374,12 @@ FILE
     puts "Adding `#{path}'..."
 
     File.write path, contents
+
+    if path =~ /\.py\z/
+      puts "Making `#{path}' executable..."
+
+      system "chmod a+x '#{path}' > /dev/null 2>&1"
+    end
   end
 
   ##############################################################################
