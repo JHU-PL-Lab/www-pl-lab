@@ -16,7 +16,7 @@ end
 task :deploy do
 
   SOURCE_BRANCH = "source"
-  REMOTE_URL = "git@pl.cs.jhu.edu:www-pl-lablaksdf"
+  REMOTE_URL = "git@pl.cs.jhu.edu:www-pl-lab"
 
   ##############################################################################
 
