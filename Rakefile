@@ -6,7 +6,7 @@ task :test do
   HTML::Proofer.new(
     "./_site",
     href_ignore: [
-#      "#",
+      "#",
     ]
   ).run
 end
