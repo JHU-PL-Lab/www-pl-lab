@@ -115,7 +115,7 @@ ERROR
 
   puts "Building website..."
 
-  system "rm -rf '#{GENERATED_WEBSITE_PATH}' && vagrant exec docker-compose run --rm jekyll jekyll build 2>&1"
+  system "rm -rf '#{GENERATED_WEBSITE_PATH}' && vagrant exec docker-compose run --rm jekyll jekyll build > /dev/null 2>&1"
 
   ##############################################################################
 
@@ -265,7 +265,7 @@ FILE
 FILE
     ],
     [
-      "update-page.py", <<-FILE
+      "update-page.py", <<-'FILE'
 #!/usr/bin/python
 
 import cgi
