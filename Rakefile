@@ -17,6 +17,7 @@ task :deploy do
 
   SOURCE_BRANCH = "source"
   TARGET_BRANCH = "master"
+  GENERATED_WEBSITE_PATH = "_site"
   REMOTE_URL = "git@pl.cs.jhu.edu:www-pl-lab"
 
   ##############################################################################
@@ -106,7 +107,7 @@ ERROR
 
   puts "Checking that the tests are passing..."
 
-  unless (test_results = `vagrant exec docker-compose run --rm jekyll rake test 2>&1`) =~ /HTML-Proofer finished successfully./
+  unless (test_results = `rm -rf '#{GENERATED_WEBSITE_PATH}' && vagrant exec docker-compose run --rm jekyll rake test 2>&1`) =~ /HTML-Proofer finished successfully./
     abort "Deployment failed! There are failing tests:\n\n#{test_results}"
   end
 
