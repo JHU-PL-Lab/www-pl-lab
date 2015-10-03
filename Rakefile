@@ -146,7 +146,7 @@ Options -Indexes
 FILE
     ],
     [
-      "DONT-EDIT-THESE-FILES", <<-'FILE'
+      "DONT-EDIT-THESE-FILES", <<-FILE
 DON'T EDIT THESE FILES
 ======================
 
