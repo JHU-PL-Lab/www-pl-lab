@@ -115,11 +115,11 @@ ERROR
 
   ##############################################################################
 
-  # puts "Checking that the tests are passing..."
+  puts "Checking that the tests are passing..."
 
-  # unless (test_results = `rm -rf '#{GENERATED_WEBSITE_PATH}' && vagrant exec docker-compose run --rm jekyll rake test 2>&1`) =~ /HTML-Proofer finished successfully./
-  #   abort "Deployment failed! There are failing tests:\n\n#{test_results}"
-  # end
+  unless (test_results = `rm -rf '#{GENERATED_WEBSITE_PATH}' && vagrant exec docker-compose run --rm jekyll rake test 2>&1`) =~ /HTML-Proofer finished successfully./
+    abort "Deployment failed! There are failing tests:\n\n#{test_results}"
+  end
 
   ##############################################################################
 
@@ -163,6 +163,8 @@ DON'T EDIT THESE FILES
 
 They were automatically generated from the `#{SOURCE_BRANCH}` branch, using Jekyll. Check
 the `#{SOURCE_BRANCH}` branch out and read the `README.md` for more information.
+
+Built at: #{Time.now}
 FILE
     ],
     [
