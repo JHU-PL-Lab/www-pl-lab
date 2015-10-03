@@ -53,8 +53,13 @@ The packages are installed under `assets/vendor/`.
 Deployment
 ----------
 
-Run the following from your local machine (not the Vagrant Virtual Machine nor
-the Docker container):
+The `source` branch contains the Jekyll source to generated the website, while
+the `master` branch contains the generated HTML. This is meant to keep the
+deployment scheme used by `pl.cs.jhu.edu`, which consists on serving the
+contents of the `master`.
+
+To deploy, run the following from your local machine (not the Vagrant Virtual
+Machine nor the Docker container):
 
 ```console
 $ rake deploy
