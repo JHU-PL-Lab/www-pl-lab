@@ -6,7 +6,7 @@ task :test do
   HTML::Proofer.new(
     "./_site",
     href_ignore: [
-      "#",
+#      "#",
     ]
   ).run
 end
@@ -100,6 +100,14 @@ We can't automate this step, because it may lead to conflicts which you'd need
 to resolve by hand.
 ERROR
     end
+  end
+
+  ##############################################################################
+
+  puts "Checking that the tests are passing..."
+
+  unless (test_results = `vagrant exec docker-compose run --rm jekyll rake test 2>&1`) =~ /HTML-Proofer finished successfully./
+    abort "Deployment failed! There are failing tests:\n\n#{test_results}"
   end
 
   ##############################################################################
