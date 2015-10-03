@@ -16,7 +16,7 @@ end
 task :deploy do
 
   SOURCE_BRANCH = "source"
-  REMOTE_URL = "git@pl.cs.jhu.edu:www-pl-lab"
+  REMOTE_URL = "git@pl.cs.jhu.edu:www-pl-lablaksdf"
 
   ##############################################################################
 
@@ -76,7 +76,7 @@ ERROR
 
   ##############################################################################
 
-  puts "Checking that there's access to deployment remote `#{REMOTE_URL}'..."
+  puts "Checking access to deployment remote `#{REMOTE_URL}'..."
 
   unless system "git ls-remote '#{REMOTE_URL}' > /dev/null 2>&1"
     abort "Deployment failed! Can't access deployment remote `#{REMOTE_URL}'."
