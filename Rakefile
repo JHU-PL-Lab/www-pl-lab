@@ -16,6 +16,7 @@ end
 task :deploy do
 
   SOURCE_BRANCH = "source"
+  TARGET_BRANCH = "master"
   REMOTE_URL = "git@pl.cs.jhu.edu:www-pl-lab"
 
   ##############################################################################
@@ -80,6 +81,25 @@ ERROR
 
   unless system "git ls-remote '#{REMOTE_URL}' > /dev/null 2>&1"
     abort "Deployment failed! Can't access deployment remote `#{REMOTE_URL}'."
+  end
+
+  ##############################################################################
+
+  puts "Checking that branches `#{SOURCE_BRANCH}' and `#{TARGET_BRANCH}' are up-to-date..."
+
+  [SOURCE_BRANCH, TARGET_BRANCH].each do |branch|
+    local_sha1 = `git rev-parse #{branch} 2>&1`.strip
+    remote_sha1 = `git ls-remote -q '#{REMOTE_URL}' '#{branch}' 2>&1`.strip.split(/\s+/).first
+
+    unless local_sha1 == remote_sha1
+      abort <<-ERROR
+Deployment failed! Branch `#{branch}' isn't up-to-date. You should Git pull
+before proceeding.
+
+We can't automate this step, because it may lead to conflicts which you'd need
+to resolve by hand.
+ERROR
+    end
   end
 
   ##############################################################################
