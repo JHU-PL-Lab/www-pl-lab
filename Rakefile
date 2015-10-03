@@ -15,9 +15,12 @@ end
 # be able to push to the repository -- i.e. it needs the SSH keys available.
 task :deploy do
 
+  require 'securerandom'
+
   SOURCE_BRANCH = "source"
   TARGET_BRANCH = "master"
   GENERATED_WEBSITE_PATH = "_site"
+  TEMPORARY_PATH = "/tmp/www-pl-lab-" + SecureRandom.hex
   REMOTE_URL = "git@pl.cs.jhu.edu:www-pl-lab"
 
   ##############################################################################
@@ -89,6 +92,9 @@ ERROR
   puts "Checking that branches `#{SOURCE_BRANCH}' and `#{TARGET_BRANCH}' are up-to-date..."
 
   [SOURCE_BRANCH, TARGET_BRANCH].each do |branch|
+
+    puts "Checking that branch `#{branch}' is up-to-date..."
+
     local_sha1 = `git rev-parse #{branch} 2>&1`.strip
     remote_sha1 = `git ls-remote -q '#{REMOTE_URL}' '#{branch}' 2>&1`.strip.split(/\s+/).first
 
@@ -126,6 +132,7 @@ ERROR
       ".gitignore", <<-'FILE'
 oose/
 pl/
+.vagrant/
 FILE
     ],
     [
@@ -362,6 +369,26 @@ FILE
 
     File.write path, contents
   end
+
+  ##############################################################################
+
+  puts "Moving the generated website from `#{GENERATED_WEBSITE_PATH}' to a temporary directory in `#{TEMPORARY_PATH}'..."
+
+  system "mv '#{GENERATED_WEBSITE_PATH}' '#{TEMPORARY_PATH}' > /dev/null 2>&1"
+
+  ##############################################################################
+
+  puts "Checking the branch `#{TARGET_BRANCH}' out..."
+
+  system "git checkout '#{TARGET_BRANCH}' > /dev/null 2>&1"
+
+  ##############################################################################
+
+  puts "Deleting the contents from previous deployments..."
+
+  previous_deployments_files = Dir["*"] + Dir[".*"] - [".", "..", ".vagrant", ".git"]
+
+  system "rm -rf #{previous_deployments_files.map { |x| "'#{x}'" }.join(" ")} > /dev/null 2>&1"
 
   ##############################################################################
 
