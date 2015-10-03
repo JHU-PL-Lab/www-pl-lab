@@ -15,6 +15,9 @@ end
 # be able to push to the repository -- i.e. it needs the SSH keys available.
 task :deploy do
 
+  SOURCE_BRANCH = "source"
+  REMOTE_URL = "git@pl.cs.jhu.edu:www-pl-lab"
+
   ##############################################################################
 
   puts "Checking that Vagrant is installed..."
@@ -56,19 +59,27 @@ ERROR
 
   ##############################################################################
 
-  puts "Checking that the `source' branch is checkout out..."
+  puts "Checking that the `#{SOURCE_BRANCH}' branch is checkout out..."
 
-  # This is required because the `source' branch is the only allowed to be deployed.
+  # This is required because the `SOURCE_BRANCH' branch is the only allowed to be deployed.
 
-  until `git branch` =~ /\* source/
-    print "The `source' branch isn't checkout out, would you like to switch to it? (Y/n): "
+  until `git branch` =~ /\* #{SOURCE_BRANCH}/
+    print "The `#{SOURCE_BRANCH}' branch isn't checkout out, would you like to switch to it? (Y/n): "
     answer = STDIN.gets.strip.downcase
 
     if answer == "n"
-      abort "Deployment failed! Can't deploy any other branch besides `source'."
+      abort "Deployment failed! Can't deploy any other branch besides `#{SOURCE_BRANCH}'."
     else
-      system "git checkout source > /dev/null 2>&1"
+      system "git checkout '#{SOURCE_BRANCH}' > /dev/null 2>&1"
     end
+  end
+
+  ##############################################################################
+
+  puts "Checking that there's access to deployment remote `#{REMOTE_URL}'..."
+
+  unless system "git ls-remote '#{REMOTE_URL}' > /dev/null 2>&1"
+    abort "Deployment failed! Can't access deployment remote `#{REMOTE_URL}'."
   end
 
   ##############################################################################
