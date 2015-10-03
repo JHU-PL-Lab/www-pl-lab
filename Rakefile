@@ -123,13 +123,13 @@ ERROR
 
   [
     [
-      ".gitignore", <<-FILE
+      ".gitignore", <<-'FILE'
 oose/
 pl/
 FILE
     ],
     [
-      ".htaccess", <<-FILE
+      ".htaccess", <<-'FILE'
 Options +ExecCGI
 Options -Indexes
 
@@ -146,7 +146,7 @@ Options -Indexes
 FILE
     ],
     [
-      "DONT-EDIT-THESE-FILES", <<-FILE
+      "DONT-EDIT-THESE-FILES", <<-'FILE'
 DON'T EDIT THESE FILES
 ======================
 
@@ -155,7 +155,7 @@ the `#{SOURCE_BRANCH}` branch out and read the `README.md` for more information.
 FILE
     ],
     [
-      "update-page.conf.json", <<-FILE
+      "update-page.conf.json", <<-'FILE'
 {
     "webRoot": "/var/www/pl.cs.jhu.edu/",
     "repositories":
@@ -344,7 +344,7 @@ sys.stdout.write('\n\n*** End of output\n')
 FILE
     ],
     [
-      "update.py", <<-FILE
+      "update.py", <<-'FILE'
 #!/usr/bin/python
 
 import subprocess
