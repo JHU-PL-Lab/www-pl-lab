@@ -55,6 +55,17 @@ Publications
   [Implementation](https://github.com/JHU-PL-Lab/odefa-proof-of-concept).
   Draft, October 2015.
 
+  Abstract
+
+  : We explore a novel approach to higher-order program analysis which combines
+    lazy data propagation with ideas from optimal lambda-reduction to produce a
+    different form of program analysis. This analysis produces _only_ a
+    control-flow graph; we derive all other information (e.g. values of
+    variables) directly from this graph. The resulting analysis is flow- and
+    context-sensitive with a provable polynomial-time bound. The analysis is
+    formalized and proved correct and terminating, and an initial implementation
+    is described.
+
 - Pottayil Harisanker Menon, Zachary Palmer, Alexander Rozenshteyn, Scott
   Smith. [Types for Flexible Objects](/projects/big-bang/papers/types-for-flexible-objects.pdf),
   Asian Symposium on Programming Languages and Systems. Singapore, November
