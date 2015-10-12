@@ -50,6 +50,10 @@ please contact <big-bang@jhu.edu>.
 Publications
 ------------
 
+- Zachary Palmer, Scott
+  Smith. [Control-Based Program Analysis](/projects/big-bang/papers/control-based-program-analysis.pdf).
+  Draft, October 2015.
+
 - Pottayil Harisanker Menon, Zachary Palmer, Alexander Rozenshteyn, Scott
   Smith. [Types for Flexible Objects](/projects/big-bang/papers/types-for-flexible-objects.pdf),
   Asian Symposium on Programming Languages and Systems. Singapore, November
