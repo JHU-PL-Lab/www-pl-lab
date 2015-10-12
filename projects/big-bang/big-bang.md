@@ -52,8 +52,8 @@ Publications
 
 - Zachary Palmer, Scott
   Smith. [Control-Based Program Analysis](/projects/big-bang/papers/control-based-program-analysis.pdf).
-  [Implementation](https://github.com/JHU-PL-Lab/odefa-proof-of-concept).
   Draft, October 2015.
+  [Implementation](https://github.com/JHU-PL-Lab/odefa-proof-of-concept).
 
   Abstract
 
