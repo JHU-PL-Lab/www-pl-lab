@@ -44,6 +44,8 @@ ERROR
 
   puts "Checking that Vagrant Virtual Machine is running..."
 
+  started_vagrant = false
+
   until `vagrant status 2>&1` =~ /default\s+running/
 
     print "Vagrant Virtual Machine is not running. Would you like to start it? (Y/n): "
@@ -52,6 +54,7 @@ ERROR
     if answer == "n"
       abort "Deployment failed! Can't proceed deployment without running Vagrant Virtual Machine."
     else
+      started_vagrant = true
       system "vagrant up > /dev/null 2>&1"
     end
   end
@@ -431,6 +434,21 @@ FILE
   puts "Checking the branch `#{SOURCE_BRANCH}' out..."
 
   system "git checkout '#{SOURCE_BRANCH}' > /dev/null 2>&1"
+
+  ##############################################################################
+
+  if started_vagrant
+    print "Would like to turn the Vagrant Virtual Machine back off? (Y/n): "
+    answer = STDIN.gets.strip.downcase
+
+    if answer == "y"
+      until `vagrant status 2>&1` !~ /default\s+running/
+        puts "Stopping Vagrant Virtual Machine..."
+
+        system "vagrant suspend > /dev/null 2>&1"
+      end
+    end
+  end
 
   ##############################################################################
 
