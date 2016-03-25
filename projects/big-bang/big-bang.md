@@ -50,44 +50,10 @@ please contact <big-bang@jhu.edu>.
 Publications
 ------------
 
-- Zachary Palmer, Scott
-  Smith. [Higher-Order Demand-Driven Program Analysis](/projects/big-bang/papers/higher-order-demand-driven-program-analysis.pdf).
-  Draft, March 2016.
-  [Implementation](https://github.com/JHU-PL-Lab/odefa-proof-of-concept).
-
-  Abstract
-
-  : We explore a novel approach to higher-order program analysis that brings
-    ideas of on-demand lookup from first-order CFL-reachability program analyses
-    to higher-order programs. The analysis needs to produce only a control-flow
-    graph; it can derive all other information including values of variables
-    directly from the graph. Several challenges had to be overcome, including
-    how to build the control-flow graph on-the-fly and how to deal with nonlocal
-    variables in functions. The resulting analysis is flow- and
-    context-sensitive with a provable polynomial-time bound. The analysis is
-    formalized and proved correct and terminating, and an initial implementation
-    is described.
-
-- Zachary Palmer, Scott
-  Smith. [Control-Based Program Analysis](/projects/big-bang/papers/control-based-program-analysis.pdf).
-  Draft, November 2015.
-  [Implementation](https://github.com/JHU-PL-Lab/odefa-proof-of-concept).
-
-  Abstract
-
-  : We explore a novel approach to higher-order program analysis which combines
-    lazy data propagation with ideas from optimal lambda-reduction to produce a
-    different form of program analysis. This analysis produces _only_ a
-    control-flow graph; we derive all other information (e.g. values of
-    variables) directly from this graph. The resulting analysis is flow- and
-    context-sensitive with a provable polynomial-time bound. The analysis is
-    formalized and proved correct and terminating, and an initial implementation
-    is described.
-
 - Pottayil Harisanker Menon, Zachary Palmer, Alexander Rozenshteyn, Scott
   Smith. [Types for Flexible Objects](/projects/big-bang/papers/types-for-flexible-objects.pdf),
-  Asian Symposium on Programming Languages and Systems. Singapore, November
-  2014.
+  Asian Symposium on Programming Languages and Systems. Singapore,
+  November 2014. ([Draft, March 2014](/projects/big-bang/papers/types-for-flexible-objects-2014-03-25.pdf). [Draft, January 2014](/projects/big-bang/papers/types-for-flexible-objects-2014-01-13.pdf). [Draft, May 2013](/projects/big-bang/papers/types-for-flexible-objects-2013-05.pdf).)
 
   Abstract
 
@@ -103,14 +69,6 @@ Publications
     there are no data declarations or type annotations. We formalize TinyBang
     and prove the type system is sound and decidable; all examples in the paper
     run in our most recent implementation.
-
-  Previous drafts
-
-  : - [March 2014](/projects/big-bang/papers/types-for-flexible-objects-2014-03-25.pdf).
-
-    - [January 2014](/projects/big-bang/papers/types-for-flexible-objects-2014-01-13.pdf).
-
-    - [May 2013](/projects/big-bang/papers/types-for-flexible-objects-2013-05.pdf).
 
 - Pottayil Harisanker Menon, Zachary Palmer, Alexander Rozenshteyn, Scott
   Smith. [PatBang: Flexible type-safe pattern matching](/projects/big-bang/papers/pat-bang.pdf),

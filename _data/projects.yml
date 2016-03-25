@@ -2,6 +2,11 @@
   category_title: "Current"
   projects:
 
+    - name: "DDPA"
+      description: |
+        Demand-Driven Program Analysis
+      link: "/projects/demand-driven-program-analysis/"
+
     - name: "Big Bang"
       description: |
         Typed scripting language design
