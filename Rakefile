@@ -119,6 +119,14 @@ ERROR
 
   ##############################################################################
 
+  puts "Checking that the tests are passing..."
+
+  unless (test_results = `rm -rf '#{GENERATED_WEBSITE_PATH}' && vagrant exec docker-compose run --rm jekyll rake test 2>&1`) =~ /HTML-Proofer finished successfully./
+    abort "Deployment failed! There are failing tests:\n\n#{test_results}"
+  end
+
+  ##############################################################################
+
   puts "Building website..."
 
   system "rm -rf '#{GENERATED_WEBSITE_PATH}' && vagrant exec docker-compose run --rm jekyll jekyll build > /dev/null 2>&1"
@@ -526,14 +534,6 @@ We can't automate this step, because it may lead to conflicts which you'd need
 to resolve by hand.
 ERROR
     end
-  end
-
-  ##############################################################################
-
-  puts "Checking that the tests are passing..."
-
-  unless (test_results = `rm -rf '#{GENERATED_WEBSITE_PATH}' && docker-compose run --rm jekyll rake test 2>&1`) =~ /HTML-Proofer finished successfully./
-    abort "Deployment failed! There are failing tests:\n\n#{test_results}"
   end
 
   ##############################################################################
