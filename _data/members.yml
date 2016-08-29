@@ -24,6 +24,10 @@
       link: "http://www.cs.jhu.edu/~leafac/"
       avatar: "/members/avatars/leandro-facchinetti.jpg"
 
+-
+  category_title: "Previous"
+  members:
+
     - name: "Alex Rozenshteyn"
       description: "Ph.D. Student"
       link: "http://www.cs.jhu.edu/~arozens/"
@@ -33,10 +37,6 @@
       description: "Undergraduate Student"
       link: "https://github.com/maz"
       avatar: "/members/avatars/marc-rosen.png"
-
--
-  category_title: "Previous"
-  members:
 
     - name: "Paritosh Shroff"
       description: "Now at Google"
