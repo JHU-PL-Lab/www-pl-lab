@@ -6,7 +6,7 @@ permalink: "/seminars/spring-2016/"
 Meeting time
 ------------
 
-Thursdays, 13:00-14:00.
+Thursdays, 13:00–14:00.
 
 Classroom
 ---------
