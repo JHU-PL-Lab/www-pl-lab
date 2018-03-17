@@ -131,5 +131,6 @@ Publications
 Dissertations
 -------------
 
+- Pottayil Harisanker Menon. [Safe, Fast and Easy: Towards Scalable Scripting Languages](/projects/big-bang/dissertations/safe-fast-and-easy--towards-scalable-scripting-languages.pdf).
 - Zachary
   Palmer. [Building a Typed Scripting Language](/projects/big-bang/dissertations/building-a-typed-scripting-language.pdf).
