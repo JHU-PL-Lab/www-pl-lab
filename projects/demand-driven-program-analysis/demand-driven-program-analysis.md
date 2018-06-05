@@ -23,6 +23,26 @@ working on efficient implementations of the variable lookup algorithm.
 Publications
 ------------
 
+- Leandro Facchinetti, Zachary Palmer, Scott
+  Smith. [Relative Store Fragments for Singleton Abstraction](/projects/demand-driven-program-analysis/papers/relative-store-fragments-for-singleton-abstraction.pdf). 24th Static Analysis Symposium.
+
+  Abstract
+
+  : A **singleton abstraction** occurs in a program analysis when some results
+    of the analysis are known to be exact: an abstract binding corresponds to a
+    single concrete binding.  In this paper, we develop a novel approach to
+    constructing singleton abstractions via **relative store fragments**.   Each
+    store fragment is a **locally** exact store abstraction in that it contains
+    only those abstract variable bindings necessary to address a particular
+    question at a particular program point; it is **relative** to that program
+    point and the point of view may be shifted.  We show how an analysis
+    incorporating relative store fragments achieves flow-, context-, path- and
+    must-alias sensitivity, and can be used as a basis for environment analysis,
+    without any machinery put in place for those specific aims.  We build upon
+    recent advances in **demand-driven** higher-order program analysis to
+    achieve this construction as it is fundamentally tied to demand-driven
+    lookup of variable values.
+
 - Zachary Palmer, Scott
   Smith. [Higher-Order Demand-Driven Program Analysis](/projects/demand-driven-program-analysis/papers/higher-order-demand-driven-program-analysis.pdf),
   European Conference on Object-Oriented Programming (ECOOP) 2016.
