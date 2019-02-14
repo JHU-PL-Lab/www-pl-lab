@@ -25,11 +25,11 @@ Publications
 
 - Leandro Facchinetti, Zachary Palmer, Scott Smith, [Higher-Order Demand-Driven Program Analysis](/projects/demand-driven-program-analysis/papers/higher-order-demand-driven-program-analysis-toplas.pdf), ACM Transactions on Programming Languages and Systems (TOPLAS), in progress, 2019.
 
-Abstract
+  Abstract
 
   : Developing accurate and efficient program analyses for languages with higher-order functions is known to be difficult. Here we define a new higher-order program analysis, **Demand-Driven Program Analysis (DDPA)**, which extends well-known demand-driven lookup techniques found in first-order program analyses to higher-order programs.
 
-  This task presents several unique challenges to obtain good accuracy, including the need for a new method for demand-driven lookup of **non-local** variable values. DDPA is **flow-** and **context-sensitive** and **provably polynomial-time**. To efficiently implement DDPA we develop a novel pushdown automaton metaprogramming framework, the **Pushdown Reachability automaton (PDR)**. The analysis is formalized and proved sound, and an implementation is described.
+    This task presents several unique challenges to obtain good accuracy, including the need for a new method for demand-driven lookup of **non-local** variable values. DDPA is **flow-** and **context-sensitive** and **provably polynomial-time**. To efficiently implement DDPA we develop a novel pushdown automaton metaprogramming framework, the **Pushdown Reachability automaton (PDR)**. The analysis is formalized and proved sound, and an implementation is described.
 
 
 - Leandro Facchinetti, Zachary Palmer, Scott
