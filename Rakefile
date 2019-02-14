@@ -540,7 +540,7 @@ ERROR
 
   puts "Building website..."
 
-  system "rm -rf '#{GENERATED_WEBSITE_PATH}' && docker-compose run --rm jekyll jekyll build > /dev/null 2>&1 && su - root -c 'chown --recursive lfacchi2:lfacchi2 ~lfacchi2/www-pl-lab/_site/ && rm -rf ~lfacchi2/www-pl-lab/.sass-cache/'"
+  system "rm -rf '#{GENERATED_WEBSITE_PATH}' && docker-compose run --rm jekyll jekyll build > /dev/null 2>&1 && su - root -c 'chown --recursive shiwei:shiwei ~shiwei/www-pl-lab/_site/ && rm -rf ~shiwei/www-pl-lab/.sass-cache/'"
 
   ##############################################################################
 
