@@ -23,7 +23,7 @@ working on efficient implementations of the variable lookup algorithm.
 Publications
 ------------
 
-- Leandro Facchinetti, Zachary Palmer, Scott Smith, [Higher-Order Demand-Driven Program Analysis](/projects/demand-driven-program-analysis/papers/higher-order-demand-driven-program-analysis-toplas.pdf), ACM Transactions on Programming Languages and Systems (TOPLAS), in progress, 2019.
+- Leandro Facchinetti, Zachary Palmer, Scott Smith, [Higher-Order Demand-Driven Program Analysis](/projects/demand-driven-program-analysis/papers/higher-order-demand-driven-program-analysis-toplas.pdf), ACM Transactions on Programming Languages and Systems (TOPLAS). Accepted, 2019.
 
   Abstract
 
