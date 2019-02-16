@@ -11,7 +11,7 @@ git pull origin source;
 docker-compose run --rm jekyll jekyll build > /dev/null 2>&1
 
 # change owner to www-data
-sudo chown --recursive www-data:www-data
+sudo chown --recursive www-data:www-data _site
 
 # transfer to Apache www path
 rsync -ahr --exclude=.git --exclude=pl --exclude=oose --stats _site/ /var/www/pl.cs.jhu.edu/
