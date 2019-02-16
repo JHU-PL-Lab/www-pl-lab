@@ -1,0 +1,13 @@
+Options +ExecCGI
+Options -Indexes
+
+# Protect configuration file from prying eyes.
+<Files "update-page.conf.json">
+    Order allow,deny
+    Deny from all
+</Files>
+
+<Files "DONT-EDIT-THESE-FILES">
+    Order allow,deny
+    Deny from all
+</Files>

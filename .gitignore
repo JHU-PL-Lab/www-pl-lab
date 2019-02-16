@@ -1,2 +1,5 @@
+oose/
+pl/
+.vagrant/
 _site
 .sass-cache
