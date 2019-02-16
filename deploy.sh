@@ -15,3 +15,6 @@ sudo chown --recursive www-data:www-data
 
 # transfer to Apache www path
 rsync -ahr --exclude=.git --exclude=pl --exclude=oose --stats _site/ /var/www/pl.cs.jhu.edu/
+
+# use previous rack build
+rake deploy:no_vagrant
