@@ -21,4 +21,4 @@ sudo rm -rf .sass-cache;
 sudo rm -rf _site;
 
 # use previous rack build
-rake deploy:no_vagrant
+# rake deploy:no_vagrant
