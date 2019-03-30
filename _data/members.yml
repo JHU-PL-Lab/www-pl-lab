@@ -4,24 +4,24 @@
 
     - name: "Prof. Scott F. Smith"
       description: "Principal Investigator"
-      link: "http://www.cs.jhu.edu/~scott/"
+      link: "www.cs.jhu.edu/~scott/"
       avatar: "/members/avatars/scott-smith.jpg"
 
     - name: "Dr. Pottayil Harisanker Menon"
       description: "Collaborative Investigator"
-      link: "http://www.cs.jhu.edu/~hmenon/"
+      link: "www.cs.jhu.edu/~hmenon/"
 
     - name: "Dr. Zachary Palmer"
       description: "Collaborative Investigator"
-      link: "http://www.cs.jhu.edu/~leafac/"
+      link: "www.cs.swarthmore.edu/~zpalmer/"
       avatar: "/members/avatars/zachary-palmer.jpg"
 
     - name: "Kenneth Roe"
-      link: "http://www.cs.jhu.edu/~roe/"
+      link: "www.cs.jhu.edu/~roe/"
 
     - name: "Leandro Facchinetti"
       description: "Ph.D. Student"
-      link: "http://www.cs.jhu.edu/~leafac/"
+      link: "www.cs.jhu.edu/~leafac/"
       avatar: "/members/avatars/leandro-facchinetti.jpg"
 
 -
@@ -30,12 +30,12 @@
 
     - name: "Alex Rozenshteyn"
       description: "Ph.D. Student"
-      link: "http://www.cs.jhu.edu/~arozens/"
+      link: "www.cs.jhu.edu/~arozens/"
       avatar: "/members/avatars/alex-rozenshteyn.jpg"
 
     - name: "Marc Rosen"
       description: "Undergraduate Student"
-      link: "https://github.com/maz"
+      link: "github.com/maz"
       avatar: "/members/avatars/marc-rosen.png"
 
     - name: "Paritosh Shroff"
@@ -43,18 +43,18 @@
 
     - name: "Yu David Liu"
       description: "Now at SUNY Binghamton"
-      link: "http://www.cs.binghamton.edu/~davidl/"
+      link: "www.cs.binghamton.edu/~davidl/"
 
     - name: "Xiaoqi Lu"
       description: "Now at Google"
 
     - name: "Mark Thober"
       description: "Now at JHU Applied Physics Lab"
-      link: "http://www.cs.jhu.edu/~mthober/"
+      link: "www.cs.jhu.edu/~mthober/"
 
     - name: "Chris Skalka"
       description: "Now at University of Vermont"
-      link: "http://www.cs.uvm.edu/~skalka/"
+      link: "www.cs.uvm.edu/~skalka/"
 
     - name: "Tiejun Wang"
       description: "Now at Google"
