@@ -15,6 +15,9 @@ exclude:
   - "Vagrantfile"
   - "bower.json"
   - "docker-compose.yml"
+  - "deploy.sh"
+include:
+  - ".hitaccess"
 
 # Build settings
 
