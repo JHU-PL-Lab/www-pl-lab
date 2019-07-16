@@ -137,13 +137,6 @@ ERROR
 
   [
     [
-      ".gitignore", <<-'FILE'
-oose/
-pl/
-.vagrant/
-FILE
-    ],
-    [
       ".htaccess", <<-'FILE'
 Options +ExecCGI
 Options -Indexes
@@ -547,13 +540,6 @@ ERROR
   puts "Adding auxiliary files..."
 
   [
-    [
-      ".gitignore", <<-'FILE'
-oose/
-pl/
-.vagrant/
-FILE
-    ],
     [
       ".htaccess", <<-'FILE'
 Options +ExecCGI
