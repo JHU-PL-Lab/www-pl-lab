@@ -23,6 +23,14 @@ working on efficient implementations of the variable lookup algorithm.
 Publications
 ------------
 
+- Zachary Palmer, Theodore Park, Scott Smith, Shiwei Weng, [Higher-Order Demand-Driven Symbolic Evaluation](/projects/demand-driven-program-analysis/papers/higher-order-demand-driven-symbolic-execution-preprint.pdf), preprint
+
+  Abstract
+
+  : Symbolic **backwards** execution (SBE) is a useful variation on standard forward symbolic evaluation; it allows a symbolic evaluation to start anywhere in the program and proceed by executing **in reverse** to the program start. SBE brings goal-directed reasoning to symbolic evaluation and has proven effective in e.g. automated test generation for imperative languages.
+
+    In this paper we define DDSE, a novel SBE which operates on a **functional** as opposed to imperative language, and furthermore it is defined as a direct abstraction of a backwards-executing interpreter. We establish the soundness of DDSE and define a test generation algorithm for this toy language. We report on an initial reference implementation to confirm the correctness of the principles.
+
 - Leandro Facchinetti, Zachary Palmer, Scott Smith, [Higher-Order Demand-Driven Program Analysis](/projects/demand-driven-program-analysis/papers/higher-order-demand-driven-program-analysis-toplas.pdf), ACM Transactions on Programming Languages and Systems (TOPLAS). Volume 41 Issue 3, July 2019.
 
   Abstract
