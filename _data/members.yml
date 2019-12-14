@@ -29,7 +29,6 @@
     - name: "Dr. Kenneth Roe"
       description: "Now at SiFive"
       link: "//www.cs.jhu.edu/~roe/"
-      avatar: "/members/avatars/kenneth-roe.jpg"
 
     - name: "Dr. Pottayil Harisanker Menon"
       description: "Now at Galois"
