@@ -7,26 +7,33 @@
       link: "//www.cs.jhu.edu/~scott/"
       avatar: "/members/avatars/scott-smith.jpg"
 
-    - name: "Dr. Pottayil Harisanker Menon"
-      description: "Collaborative Investigator"
-      link: "//www.cs.jhu.edu/~hmenon/"
-
     - name: "Dr. Zachary Palmer"
       description: "Collaborative Investigator"
       link: "//www.cs.swarthmore.edu/~zpalmer/"
       avatar: "/members/avatars/zachary-palmer.jpg"
-
-    - name: "Kenneth Roe"
-      link: "//www.cs.jhu.edu/~roe/"
 
     - name: "Leandro Facchinetti"
       description: "Ph.D. Student"
       link: "//www.cs.jhu.edu/~leafac/"
       avatar: "/members/avatars/leandro-facchinetti.jpg"
 
+    - name: "Shiwei Weng"
+      description: "Ph.D. Student"
+      link: "//www.cs.jhu.edu/~weng/"
+      avatar: "/members/avatars/shiwei-weng.jpg"
+
 -
   category_title: "Previous"
   members:
+
+    - name: "Dr. Kenneth Roe"
+      description: "Now at SiFive"
+      link: "//www.cs.jhu.edu/~roe/"
+      avatar: "/members/avatars/kenneth-roe.jpg"
+
+    - name: "Dr. Pottayil Harisanker Menon"
+      description: "Now at Galois"
+      link: "//www.cs.jhu.edu/~hmenon/"
 
     - name: "Alex Rozenshteyn"
       description: "Ph.D. Student"
