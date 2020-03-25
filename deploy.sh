@@ -14,7 +14,7 @@ docker-compose run --rm jekyll jekyll build > /dev/null 2>&1
 sudo chown --recursive www-data:www-data _site
 
 # transfer to Apache www path
-rsync -ahr --exclude=pl --exclude=pl2 --exclude=oose --stats _site/ /var/www/pl.cs.jhu.edu/
+rsync -ahr --exclude=pl --exclude=pl2 --exclude=oose --exlucde=fpse --stats _site/ /var/www/pl.cs.jhu.edu/
 
 # clean up
 sudo rm -rf .sass-cache;
