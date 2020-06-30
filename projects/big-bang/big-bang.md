@@ -6,7 +6,7 @@ narrow: true
 
 Status
 
-: Active.
+: Inactive.
 
 The Big Bang project aims to create a typed programming language with the feel
 and convenience of modern scripting languages. Projects such as DRuby and Typed

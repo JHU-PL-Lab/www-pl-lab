@@ -2,19 +2,24 @@
   category_title: "Current"
   projects:
 
+    - name: "DDSE"
+      description: |
+        Demand-Driven Symbolic Execution
+      link: "/projects/demand-driven-symbolic-execution/"
+
     - name: "DDPA"
       description: |
         Demand-Driven Program Analysis
       link: "/projects/demand-driven-program-analysis/"
 
+-
+  category_title: "Previous"
+  projects:
+
     - name: "Big Bang"
       description: |
         Typed scripting language design
       link: "/projects/big-bang/"
-
--
-  category_title: "Previous"
-  projects:
 
     - name: "BSJ"
       description: |
