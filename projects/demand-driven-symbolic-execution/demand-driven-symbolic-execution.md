@@ -13,7 +13,7 @@ Symbolic execution has been an active area of research for almost 50 years. Symb
 Publications
 ------------
 
-- Zachary Palmer, Theodore Park, Scott Smith, Shiwei Weng, [Higher-Order Demand-Driven Symbolic Evaluation](/projects/demand-driven-symbolic-execution/papers/icfp20-ddse-full.pdf), Proceedings of the ACM on Programming Languages, Volume 4, Number ICFP, Article 102 (August 2020), 28 pages. [Full](/projects/demand-driven-symbolic-execution/papers/icfp20-ddse-full.pdf). [Artifact](/projects/demand-driven-symbolic-execution/artifacts/artifact09-source-c19e0730b819707df4251ec7ca248b80.tgz).
+- Zachary Palmer, Theodore Park, Scott Smith, Shiwei Weng, [Higher-Order Demand-Driven Symbolic Evaluation](/projects/demand-driven-symbolic-execution/papers/icfp20-ddse-full.pdf), Proceedings of the ACM on Programming Languages, Volume 4, Number ICFP, Article 102 (August 2020), 28 pages. [Artifact](/projects/demand-driven-symbolic-execution/artifacts/artifact09-source-c19e0730b819707df4251ec7ca248b80.tgz). [Full paper](/projects/demand-driven-symbolic-execution/papers/icfp20-ddse-full.pdf). [Slide](/projects/demand-driven-symbolic-execution/papers/icfp20-ddse-slide.pdf).
 
   Abstract
 
