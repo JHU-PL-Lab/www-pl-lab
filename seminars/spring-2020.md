@@ -16,7 +16,7 @@ JHU PL Zoom (~~Malone 228~~)
 Contact
 -------
 
-plseminar@cs.jhu.edu
+<plseminar@cs.jhu.edu>
 
 Discussion Schedule
 -------------------
