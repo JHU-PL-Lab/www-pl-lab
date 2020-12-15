@@ -12,22 +12,21 @@
       link: "//www.cs.swarthmore.edu/~zpalmer/"
       avatar: "/members/avatars/zachary-palmer.jpg"
 
-    - name: "Leandro Facchinetti"
-      description: "Ph.D. Student"
-      link: "//www.cs.jhu.edu/~leafac/"
-      avatar: "/members/avatars/leandro-facchinetti.jpg"
-
     - name: "Shiwei Weng"
       description: "Ph.D. Student"
       link: "//www.cs.jhu.edu/~weng/"
       avatar: "/members/avatars/shiwei-weng.jpg"
 
 -
-  category_title: "Previous"
+  category_title: "Alumni"
   members:
+    - name: "Leandro Facchinetti"
+      description: "Ph.D. Student"
+      link: "//www.cs.jhu.edu/~leafac/"
+      avatar: "/members/avatars/leandro-facchinetti.jpg"
 
     - name: "Kenneth Roe"
-      description: "Now at SiFive"
+      description: "Now at Intel"
       link: "//www.cs.jhu.edu/~roe/"
 
     - name: "Pottayil Harisanker Menon"
