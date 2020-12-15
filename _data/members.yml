@@ -22,8 +22,7 @@
   members:
     - name: "Leandro Facchinetti"
       description: "Ph.D. Student"
-      link: "//www.cs.jhu.edu/~leafac/"
-      avatar: "/members/avatars/leandro-facchinetti.jpg"
+      link: "//leafac.com/"
 
     - name: "Kenneth Roe"
       description: "Now at Intel"
