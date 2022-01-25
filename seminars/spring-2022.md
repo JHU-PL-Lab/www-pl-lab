@@ -23,4 +23,4 @@ Discussion Schedule
 
 | Date       | Paper                        | Presenter   |
 | ---------- | ---------------------------- | ----------- |
-| 2022-01-24 | Define schedule for semester | Scott Smith |
+| 2022-01-28 | Define schedule for semester | Scott Smith |
