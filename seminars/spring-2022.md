@@ -1,5 +1,5 @@
 ---
-title: "Seminar Sprint 2022"
+title: "Seminar Spring 2022"
 permalink: "/seminars/spring-2022/"
 ---
 
