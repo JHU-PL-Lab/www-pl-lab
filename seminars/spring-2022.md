@@ -24,7 +24,6 @@ Discussion Schedule
 | Date       | Paper                                                                                                                                        | Presenter            |
 | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
 | 2022-05-27 | On Type-Cases, Union Elimination, and Occurrence Typing, POPL '22 ([paper][05-27-paper])                                                     | [video][05-27-video] |
-| 2022-05-13 | On Type-Cases, Union Elimination, and Occurrence Typing , POPL'22 ([paper][05-13-paper])                                                     | [video][05-13-video] |
 | 2022-05-06 | Tutorial on CPS             ([tutorial][04-29-tutorial])                                                                                     | Shiwei Weng          |
 | 2022-04-22 | An Introduction to Logical Relations ([tutorial][04-22-tutorial])                                                                            | Scott Smith          |
 | 2022-04-15 | Compiling with Continuations, Correctly, OOPSLA'21 ([paper][04-15-paper])                                                                    | [video][04-15-video] |
@@ -41,9 +40,6 @@ Discussion Schedule
 
 [05-27-paper]: https://www.irif.fr/~gc/papers/popl22.pdf
 [05-27-video]: https://www.youtube.com/watch?v=Ywu1FFafWmI
-
-[05-13-paper]: https://www.irif.fr/~gc/papers/popl22.pdf
-[05-13-video]: https://www.youtube.com/watch?v=Ywu1FFafWmI
 
 [04-29-tutorial]: https://en.wikibooks.org/wiki/Haskell/Continuation_passing_style#cite_ref-1
 
