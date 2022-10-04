@@ -17,6 +17,11 @@
       link: "//www.cs.jhu.edu/~weng/"
       avatar: "/members/avatars/shiwei-weng.jpg"
 
+    - name: "Farnaz Yousefi"
+      description: "Ph.D. Student"
+      link: "//farnazusefi.github.io/"
+      avatar: "/members/avatars/farnaz-yousefi.jpg"
+
 -
   category_title: "Alumni"
   members:
