@@ -22,6 +22,11 @@
       link: "//farnazusefi.github.io/"
       avatar: "/members/avatars/farnaz-yousefi.jpg"
 
+    - name: "Earl Wu"
+      description: "Ph.D. Student"
+      link: "//pl.cs.jhu.edu/members/"
+      avatar: "/members/avatars/earl-wu.jpg"
+
 -
   category_title: "Alumni"
   members:
