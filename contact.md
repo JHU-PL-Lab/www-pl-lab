@@ -6,13 +6,7 @@ permalink: "/contact/"
 Laboratory
 ----------
 
-The Johns Hopkins University
-
-Baltimore, MD 21218-2686
-
 Malone Hall 260
-
-<pl.cs@jhu.edu>
 
 Prof. Scott F. Smith
 --------------------
