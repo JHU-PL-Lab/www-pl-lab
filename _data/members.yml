@@ -27,6 +27,11 @@
       link: "//pl.cs.jhu.edu/members/"
       avatar: "/members/avatars/earl-wu.png"
 
+    - name: "Robert Zhang"
+      description: "CS Undergrad"
+      link: "//robertzhang.vercel.app/"
+      avatar: "/members/avatars/robert-zhang.jpg"
+
 -
   category_title: "Alumni"
   members:
