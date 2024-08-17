@@ -27,17 +27,28 @@
       link: "//pl.cs.jhu.edu/members/"
       avatar: "/members/avatars/earl-wu.png"
 
-    - name: "Robert Zhang"
-      description: "Undergraduate Researcher"
-      link: "//robertzhang.vercel.app/"
-      avatar: "/members/avatars/robert-zhang.jpg"
+    - name: "Brandon Stride"
+      description: "Ph.D. Student"
+      link: "//pl.cs.jhu.edu/members/"
+      avatar: "/members/avatars/brandon-stride.jpg"
 
 -
   category_title: "Alumni"
   members:
+    - name: "Robert Zhang"
+      description: "Ph.D. Student at UT Austin"
+      link: "//robertzhang.vercel.app/"
+      avatar: "/members/avatars/robert-zhang.jpg"
+
     - name: "Leandro Facchinetti"
       description: "Mr. Dad"
       link: "//leafac.com/"
+      avatar: "/members/avatars/leandro-facchinetti.jpg"
+
+    - name: "Alex Rozenshteyn"
+      description: "Now at LeapYear"
+      link: "//www.cs.jhu.edu/~arozens/"
+      avatar: "/members/avatars/alex-rozenshteyn.jpg"
 
     - name: "Kenneth Roe"
       description: "Now at Intel"
@@ -46,10 +57,6 @@
     - name: "Pottayil Harisanker Menon"
       description: "Now at Galois"
       link: "//www.cs.jhu.edu/~hmenon/"
-
-    - name: "Alex Rozenshteyn"
-      description: "Now at LeapYear"
-      link: "//www.cs.jhu.edu/~arozens/"
 
     - name: "Marc Rosen"
       description: "Now at Galios"
