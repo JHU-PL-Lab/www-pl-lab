@@ -1,6 +1,10 @@
 -
   category_title: "Current"
   projects:
+    - name: "BlueJay Refutator"
+      description: |
+        Semantic-type-guided Type Checker
+      link: "/projects/semantic-type-checker/"
 
     - name: "DDSE"
       description: |
