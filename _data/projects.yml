@@ -3,7 +3,7 @@
   projects:
     - name: "BlueJay Type Refuter"
       description: |
-        Semantic-type-guided Type Checker
+        Semantic-Type-Guided Type Checker
       link: "/projects/semantic-type-checker/"
 
     - name: "DDSE"
