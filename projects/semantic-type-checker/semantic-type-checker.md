@@ -1,5 +1,5 @@
 ---
-title: "Semantic-type-guided Type Checker"
+title: "Semantic-Type-Guided Type Checker"
 permalink: "/projects/semantic-type-checker/"
 narrow: true
 ---
