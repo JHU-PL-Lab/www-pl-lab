@@ -13,8 +13,8 @@ Status
 Publications
 ------------
 
-Kelvin Qian, Scott Smith, Brandon Stride, Shiwei Weng, Ke Wu, [Semantic-Type-Guided Bug Finding](/projects/demand-driven-symbolic-execution/papers/icfp20-ddse-full.pdf), Proceedings of the ACM on Programming Languages, Volume 8, Issue OOPSLA2 Article No.: 348, Pages 2183 - 2210.
-[doi](https://dl.acm.org/doi/10.1145/3689788).
+Kelvin Qian, Scott Smith, Brandon Stride, Shiwei Weng, Ke Wu, [Semantic-Type-Guided Bug Finding](https://dl.acm.org/doi/10.1145/3689788), Proceedings of the ACM on Programming Languages, Volume 8, Issue OOPSLA2 Article No.: 348, Pages 2183 - 2210.
+[Repo](https://github.com/JHU-PL-Lab/jaylang). [Paper](https://dl.acm.org/doi/pdf/10.1145/3689788).
 
   Abstract
 

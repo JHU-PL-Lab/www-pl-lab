@@ -1,7 +1,7 @@
 -
   category_title: "Current"
   projects:
-    - name: "BlueJay Refutator"
+    - name: "BlueJay Type Refuter"
       description: |
         Semantic-type-guided Type Checker
       link: "/projects/semantic-type-checker/"
